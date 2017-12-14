@@ -21,7 +21,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/recall_ef.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/recall_us.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/visualize.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hnswalg.h" afterPath="$PROJECT_DIR$/hnswalg.h" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
@@ -89,7 +88,7 @@
       <file leaf-file-name="hnswalg.h" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hnswalg.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
+            <state relative-caret-position="-2898">
               <caret line="79" column="38" lean-forward="false" selection-start-line="79" selection-start-column="38" selection-end-line="79" selection-end-column="38" />
               <folding />
             </state>
@@ -188,12 +187,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1513274102208</updated>
-      <workItem from="1513274103847" duration="2536000" />
+      <workItem from="1513274103847" duration="3132000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2536000" />
+    <option name="totallyTimeSpent" value="3132000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -299,7 +298,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hnswalg.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
+        <state relative-caret-position="-2898">
           <caret line="79" column="38" lean-forward="false" selection-start-line="79" selection-start-column="38" selection-end-line="79" selection-end-column="38" />
           <folding />
         </state>

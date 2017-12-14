@@ -78,7 +78,6 @@ namespace hnswlib {
         ~HierarchicalNSW()
         {
             free(data_level0_memory_);
-            delete visitedsetpool;
             delete visitedlistpool;
         }
         // Fields

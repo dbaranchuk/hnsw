@@ -1,0 +1,3 @@
+/home/dbaranchuk/hnsw/CMakeFiles/deep_test.dir
+/home/dbaranchuk/hnsw/CMakeFiles/main.dir
+/home/dbaranchuk/hnsw/CMakeFiles/sift_test.dir

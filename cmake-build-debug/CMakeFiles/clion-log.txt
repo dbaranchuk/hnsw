@@ -1,4 +1,4 @@
-/home/dbaranchuk/Developer/clion-2017.2.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/dbaranchuk/prev_hnsw
+/home/dbaranchuk/Developer/clion-2017.2.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/dbaranchuk/hnsw
 -- The C compiler identification is GNU 4.8.4
 -- The CXX compiler identification is GNU 4.9.4
 -- Check for working C compiler: /usr/bin/cc
@@ -29,4 +29,4 @@ Call Stack (most recent call first):
 
 
 -- Configuring incomplete, errors occurred!
-See also "/home/dbaranchuk/prev_hnsw/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/home/dbaranchuk/hnsw/cmake-build-debug/CMakeFiles/CMakeOutput.log".

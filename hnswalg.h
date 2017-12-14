@@ -17,9 +17,6 @@
 #include <cmath>
 #include <queue>
 
-using google::dense_hash_map;
-using google::dense_hash_set;
-
 
 template<typename T>
 static void writeBinaryPOD(std::ostream &out, const T &podRef) {
@@ -71,7 +68,6 @@ namespace hnswlib {
             cur_element_count = 0;
 
             visitedlistpool = new VisitedListPool(1, maxelements_);
-            visitedsetpool = new VisitedSetPool(1);
             //initializations for special treatment of the first node
             enterpoint_node = -1;
             maxlevel_ = -1;
@@ -97,7 +93,6 @@ namespace hnswlib {
         int maxlevel_;
 
         VisitedListPool *visitedlistpool;
-        VisitedSetPool *visitedsetpool;
 
         mutex cur_element_count_guard_;
         mutex MaxLevelGuard_;
@@ -129,7 +124,9 @@ namespace hnswlib {
 
         std::priority_queue<std::pair<dist_t, tableint  >> searchBaseLayer(tableint ep, void *datapoint, int level, int ef)
         {
-            VisitedSet *vs = visitedsetpool->getFreeVisitedSet();
+            VisitedList *vl = visitedlistpool->getFreeVisitedList();
+            vl_type *massVisited = vl->mass;
+            vl_type currentV = vl->curV;
 
             std::priority_queue<std::pair<dist_t, tableint  >> topResults;
             std::priority_queue<std::pair<dist_t, tableint >> candidateSet;
@@ -137,7 +134,7 @@ namespace hnswlib {
 
             topResults.emplace(dist, ep);
             candidateSet.emplace(-dist, ep);
-            vs->insert(ep);
+            massVisited[ep] = currentV;
 
             dist_t lowerBound = dist;
 
@@ -161,8 +158,9 @@ namespace hnswlib {
                 for (linklistsizeint j = 0; j < size; ++j) {
                     tableint tnum = *(data + j);
                     _mm_prefetch(getDataByInternalId(*(data + j + 1)), _MM_HINT_T0);
-                    if (vs->count(tnum) == 0){
-                        vs->insert(tnum);
+                    if (!(massVisited[tnum] == currentV)) {
+                        massVisited[tnum] = currentV;
+
                         dist_t dist = space->fstdistfunc(datapoint, getDataByInternalId(tnum));
                         if (topResults.top().first > dist || topResults.size() < ef) {
                             candidateSet.emplace(-dist, tnum);
@@ -176,7 +174,7 @@ namespace hnswlib {
                     }
                 }
             }
-            visitedsetpool->releaseVisitedSet(vs);
+            visitedlistpool->releaseVisitedList(vl);
             return topResults;
         }
 
@@ -294,7 +292,6 @@ namespace hnswlib {
 
             while (topResults.size() > curM) {
                 throw exception();
-                topResults.pop();
             }
 
             vector<tableint> rez;
@@ -364,7 +361,6 @@ namespace hnswlib {
 
                     *ll_other = indx;
                 }
-
             }
         }
 
@@ -571,7 +567,6 @@ namespace hnswlib {
             cur_element_count = maxelements_;
 
             visitedlistpool = new VisitedListPool(1, maxelements_);
-            visitedsetpool = new VisitedSetPool(1);
 
             elementLevels = vector<char>(maxelements_);
             for (size_t i = 0; i < maxelements_; ++i)

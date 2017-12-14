@@ -1,7 +1,5 @@
 #pragma once
 
-#include <sparsehash/dense_hash_map>
-
 #include "hnswlib.h"
 #include "visited_list_pool.h"
 #include <random>

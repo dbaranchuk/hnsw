@@ -21,9 +21,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/recall_ef.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/recall_us.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/visualize.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/L2space.h" afterPath="$PROJECT_DIR$/L2space.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hnswalg.h" afterPath="$PROJECT_DIR$/hnswalg.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visited_list_pool.h" afterPath="$PROJECT_DIR$/visited_list_pool.h" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
@@ -70,7 +68,7 @@
         <entry file="file://$PROJECT_DIR$/L2space.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="774">
-              <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+              <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding>
                 <element signature="e#1277#1294#0" expanded="true" />
               </folding>
@@ -91,8 +89,8 @@
       <file leaf-file-name="hnswalg.h" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hnswalg.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1184">
-              <caret line="569" column="0" lean-forward="true" selection-start-line="569" selection-start-column="0" selection-end-line="569" selection-end-column="0" />
+            <state relative-caret-position="18">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -190,12 +188,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1513274102208</updated>
-      <workItem from="1513274103847" duration="2463000" />
+      <workItem from="1513274103847" duration="2517000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2463000" />
+    <option name="totallyTimeSpent" value="2517000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -284,7 +282,7 @@
     <entry file="file://$PROJECT_DIR$/L2space.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="774">
-          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding>
             <element signature="e#1277#1294#0" expanded="true" />
           </folding>
@@ -301,8 +299,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hnswalg.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1184">
-          <caret line="569" column="0" lean-forward="true" selection-start-line="569" selection-start-column="0" selection-end-line="569" selection-end-column="0" />
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>

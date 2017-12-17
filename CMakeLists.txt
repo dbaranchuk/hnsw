@@ -19,5 +19,4 @@ add_subdirectory(faiss)
 add_executable(main ${SOURCE_EXE})  
 SET( CMAKE_CXX_FLAGS  "-Ofast -lrt -DNDEBUG -std=c++11 -DHAVE_CXX0X -openmp -march=native -fpic -w -fopenmp -ftree-vectorize -ftree-vectorizer-verbose=0" )
 
-
 target_link_libraries(main sift_test hybrid_test faiss)

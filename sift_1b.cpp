@@ -150,7 +150,6 @@ static void get_gt(unsigned int *massQA, size_t qsize, vector<std::priority_queu
                    size_t gt_dim, size_t k = 1)
 {
 	(vector<std::priority_queue< std::pair<dist_t, labeltype >>>(qsize)).swap(answers);
-    std::cout << qsize << "\n";
 	for (int i = 0; i < qsize; i++) {
 		for (int j = 0; j < k; j++) {
 			answers[i].emplace(0.0f, massQA[gt_dim*i + j]);
@@ -171,20 +170,10 @@ static float test_approx(vtype *massQ, size_t qsize, HierarchicalNSW<dist_t, vty
 	for (int i = 0; i < qsize; i++) {
 		std::priority_queue< std::pair<dist_t, labeltype >> result;
 
-//        if (pq) {
-//            //dynamic_cast<L2SpacePQ *>(appr_alg.space)->set_query_table((unsigned char *) (massQ + vecdim * i));
-//            dynamic_cast<NewL2SpacePQ *>(appr_alg.space)->set_query_table((massfQ + vecdim * i));
-//            result = appr_alg.searchKnn(massQ + vecdim*i, k, i);
-//        }
-//        else
         result = appr_alg.searchKnn(massQ + vecdim*i, k);
 
 		std::priority_queue< std::pair<dist_t, labeltype >> gt(answers[i]);
 		unordered_set <labeltype> g;
-
-        //float dist2gt = appr_alg.space->fstdistfunc((void*)(massfQ + vecdim*i),//appr_alg.getDataByInternalId(gt.top().second),
-        //                                             appr_alg.getDataByInternalId(appr_alg.enterpoint_node));
-        //appr_alg.nev9zka += dist2gt / qsize;
 
         total += gt.size();
 
@@ -274,48 +263,6 @@ static void loadXvecs(const char *path, format *mass, const int n, const int d)
     input.close();
 }
 
-template<typename vtype>
-static void encode_dataset(NewL2SpacePQ *space, const char *path_src, const char *path_target, size_t d, size_t n) {
-    if (exists_test(path_target)) {
-        std::cout << "Dataset is already encoded" << std::endl;
-        return;
-    }
-    std::cout << "Encoding dataset:\n";
-    int m = space->get_data_size();
-    size_t batch_size = 1000000;
-    size_t nb = n / batch_size;
-
-    std::cout << d << " " << m << std::endl;
-    ifstream input(path_src, ios::binary);
-    FILE *fout = fopen(path_target, "wb");
-
-    vtype *batch = new vtype[batch_size * d];
-    unsigned char *batch_code = new unsigned char[batch_size * m];
-    float *batchf = new float[batch_size * d];
-
-    for (int b = 0; b < nb; b++) {
-        readXvec<vtype>(input, batch, d, batch_size);
-
-        for (int i = 0; i < batch_size * d; i++)
-            batchf[i] = (1.0) * batch[i];
-
-        space->pq->compute_codes(batchf, batch_code, batch_size);
-
-        for (int i = 0; i < batch_size; i++) {
-            fwrite(&m, sizeof(int), 1, fout);
-            fwrite(batch_code + i * m, sizeof(unsigned char), m, fout);
-        }
-    }
-
-    input.close();
-    fclose(fout);
-
-    delete batch;
-    delete batchf;
-    delete batch_code;
-}
-
-
 template<typename dist_t, typename vtype>
 static void _hnsw_test(const char *path_pq, const char *path_learn,
                        const char *path_codebooks, const char *path_tables,
@@ -353,35 +300,17 @@ static void _hnsw_test(const char *path_pq, const char *path_learn,
     SpaceInterface<dist_t> *l2space;
 
     switch(l2SpaceType) {
-        case L2SpaceType::PQ:
-            l2space = dynamic_cast<SpaceInterface<dist_t> *>(new L2SpacePQ(vecdim, M_PQ, 256));
-            dynamic_cast<L2SpacePQ *>(l2space)->set_codebooks(path_codebooks);
-            dynamic_cast<L2SpacePQ *>(l2space)->set_construction_tables(path_tables);
-            break;
         case L2SpaceType::Float:
             l2space = dynamic_cast<SpaceInterface<dist_t> *>(new L2Space(vecdim));
             break;
         case L2SpaceType::Int:
             l2space = dynamic_cast<SpaceInterface<dist_t> *>(new L2SpaceI(vecdim));
             break;
-        case L2SpaceType ::NewPQ:
-            l2space = dynamic_cast<SpaceInterface<dist_t> *>(new NewL2SpacePQ(vecdim, M_PQ, 256, path_pq, path_learn));
-            encode_dataset<vtype>(dynamic_cast<NewL2SpacePQ *>(l2space), path_data, path_data_pq, vecdim, vecsize);
-            break;
     }
 
     HierarchicalNSW<dist_t, vtype> *appr_alg;
     if (exists_test(path_info) && exists_test(path_edges)) {
         appr_alg = new HierarchicalNSW<dist_t, vtype>(l2space, path_info, path_data, path_edges);
-//        HierarchicalNSW<dist_t, vtype> *hnsw = new HierarchicalNSW<dist_t, vtype>(l2space, "/sata2/dbaranchuk/to_vision/deep4m_ef260_clusters3993883_M16_hnsw_reverse.bin",
-//        "/sata2/dbaranchuk/to_vision/centroids4M_reverse.fvecs", "/sata2/dbaranchuk/to_vision/deep4m_ef260_clusters3993883_M16_hnsw_reverse.ivecs");
-        //HierarchicalNSW<dist_t, vtype> *hnsw = new HierarchicalNSW<dist_t, vtype>(l2space, "/sata2/dbaranchuk/to_vision/sift/sift1m_ef320_M16_hnsw_reverse.bin",
-        //                                                                          "/sata2/dbaranchuk/to_vision/sift/sift_base_reverse.bvecs", "/sata2/dbaranchuk/to_vision/sift/sift1m_ef320_M16_hnsw_reverse.ivecs");
-        //appr_alg->merge(hnsw);
-        //delete hnsw;
-
-//        appr_alg->SaveInfo("/sata2/dbaranchuk/to_vision/deep4m_ef260_clusters3993883_M16_hnsw_merge.bin");
-//        appr_alg->SaveEdges("/sata2/dbaranchuk/to_vision/deep4m_ef260_clusters3993883_M16_hnsw_merge.ivecs");
         cout << "Actual memory usage: " << getCurrentRSS() / 1000000 << " Mb \n";
     } else {
         cout << "Building index:\n";
@@ -392,9 +321,9 @@ static void _hnsw_test(const char *path_pq, const char *path_learn,
         StopW stopw_full = StopW();
 
         cout << "Adding elements\n";
-        ifstream input(PQ ? path_data_pq : path_data, ios::binary);
-        vtype mass[PQ ? M_PQ : vecdim];
-        readXvec<vtype>(input, mass, (PQ ? M_PQ : vecdim));
+        ifstream input(path_data, ios::binary);
+        vtype mass[vecdim];
+        readXvec<vtype>(input, mass, vecdim);
         //unsigned char mass[M_PQ];
         //readXvec<unsigned char>(input, mass, M_PQ);
         appr_alg->addPoint((void *) mass, j1);
@@ -406,7 +335,7 @@ static void _hnsw_test(const char *path_pq, const char *path_learn,
             //unsigned char mass[M_PQ];
 #pragma omp critical
             {
-                readXvec<vtype>(input, mass, (PQ ? M_PQ : vecdim));
+                readXvec<vtype>(input, mass, vecdim);
                 //readXvec<unsigned char>(input, mass, M_PQ);
                 if (++j1 % report_every == 0) {
                     cout << j1 / (0.01 * vecsize) << " %, "

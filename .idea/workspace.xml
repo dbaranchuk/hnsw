@@ -10,1324 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0ce2bf3-d0fb-4ea2-b1fb-02acb635186a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/.dockerignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/.idea/faiss.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/AutoTune.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/AutoTune.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/AuxIndexStructures.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/AuxIndexStructures.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/CMakeLists.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/Clustering.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/Clustering.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/FaissAssert.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/FaissException.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/FaissException.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/Heap.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/Heap.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/INSTALL.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/Index.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/Index.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/IndexFlat.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/IndexFlat.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/IndexIVF.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/IndexIVF.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/IndexIVFPQ.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/IndexIVFPQ.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/IndexLSH.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/IndexLSH.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/IndexPQ.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/IndexPQ.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/IndexScalarQuantizer.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/IndexScalarQuantizer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/MetaIndexes.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/MetaIndexes.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/PATENTS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/PolysemousTraining.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/PolysemousTraining.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/ProductQuantizer.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/ProductQuantizer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/VectorTransform.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/VectorTransform.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/benchs/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/benchs/bench_gpu_1bn.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/benchs/bench_gpu_sift1m.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/benchs/bench_polysemous_1bn.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/benchs/bench_polysemous_sift1m.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/benchs/bench_scalar_quantizer.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/benchs/kmeans_mnist.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/cmake-build-debug/CMakeCache.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/cmake-build-debug/CMakeFiles/3.8.2/CMakeCCompiler.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/cmake-build-debug/CMakeFiles/3.8.2/CMakeCXXCompiler.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/cmake-build-debug/CMakeFiles/3.8.2/CMakeDetermineCompilerABI_C.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/cmake-build-debug/CMakeFiles/3.8.2/CMakeDetermineCompilerABI_CXX.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/cmake-build-debug/CMakeFiles/3.8.2/CMakeSystem.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdC/CMakeCCompilerId.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdC/a.out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdCXX/a.out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/cmake-build-debug/CMakeFiles/FindOpenMP/ompver.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/cmake-build-debug/CMakeFiles/FindOpenMP/ompver.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/cmake-build-debug/CMakeFiles/FindOpenMP/ompver_C.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/cmake-build-debug/CMakeFiles/FindOpenMP/ompver_CXX.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/cmake-build-debug/CMakeFiles/clion-environment.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/cmake-build-debug/CMakeFiles/cmake.check_cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/cmake-build-debug/CMakeFiles/feature_tests.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/cmake-build-debug/CMakeFiles/feature_tests.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/cmake/Cuda.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/cmake/Modules/FindMKL.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/cmake/Modules/FindOpenBLAS.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/Doxyfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/1-Flat_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/2-IVFFlat_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/3-IVFPQ_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/AutoTune_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/AutoTune_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/AuxIndexStructures_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/AuxIndexStructures_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/BlockSelectFloat128_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/BlockSelectFloat1_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/BlockSelectFloat256_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/BlockSelectFloat32_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/BlockSelectFloat64_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/BlockSelectFloatF1024_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/BlockSelectFloatF512_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/BlockSelectFloatT1024_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/BlockSelectFloatT512_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/BlockSelectFloat_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/BlockSelectHalf128_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/BlockSelectHalf1_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/BlockSelectHalf256_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/BlockSelectHalf32_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/BlockSelectHalf64_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/BlockSelectHalfF1024_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/BlockSelectHalfF512_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/BlockSelectHalfT1024_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/BlockSelectHalfT512_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/BlockSelectHalf_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/BlockSelectImpl_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/BlockSelectKernel_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/BroadcastSum_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/BroadcastSum_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/Clustering_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/Clustering_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/Comparators_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/CompareFlat_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/CompareIVFFlat_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/CompareIVFPQGrid_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/CompareIVFPQ_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/ConversionOperators_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/CopyUtils_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/DeviceDefs_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/DeviceMemory_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/DeviceMemory_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/DeviceTensor-inl_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/DeviceTensor_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/DeviceUtils_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/DeviceUtils_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/DeviceVector_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/Distance_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/Distance_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/FaissAssert_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/FaissException_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/FaissException_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/FlatIndex_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/FlatIndex_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/Float16_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/Float16_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/GpuAutoTune_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/GpuAutoTune_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/GpuClonerOptions_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/GpuClonerOptions_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/GpuIndexFlat_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/GpuIndexFlat_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/GpuIndexIVFFlat_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/GpuIndexIVFFlat_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/GpuIndexIVFPQ_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/GpuIndexIVFPQ_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/GpuIndexIVF_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/GpuIndexIVF_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/GpuIndex_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/GpuIndex_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/GpuIndicesOptions_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/GpuResources_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/GpuResources_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/Heap_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/Heap_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/HostTensor-inl_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/HostTensor_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/IVFBase_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/IVFBase_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/IVFFlatScan_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/IVFFlatScan_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/IVFFlat_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/IVFFlat_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/IVFPQ_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/IVFPQ_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/IVFUtilsSelect1_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/IVFUtilsSelect2_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/IVFUtils_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/IVFUtils_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/IndexFlat_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/IndexFlat_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/IndexIVFPQ_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/IndexIVFPQ_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/IndexIVF_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/IndexIVF_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/IndexLSH_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/IndexLSH_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/IndexPQ_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/IndexPQ_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/IndexProxy_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/IndexProxy_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/IndexScalarQuantizer_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/IndexScalarQuantizer_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/IndexWrapper-inl_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/IndexWrapper_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/Index_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/Index_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/InvertedListAppend_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/InvertedListAppend_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/L2Norm_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/L2Norm_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/L2Select_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/L2Select_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/Limits_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/LoadStoreOperators_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/MathOperators_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/MatrixMult_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/MatrixMult_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/MemorySpace_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/MemorySpace_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/MergeNetworkBlock_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/MergeNetworkUtils_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/MergeNetworkWarp_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/MetaIndexes_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/MetaIndexes_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/NoTypeTensor_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/PQCodeDistances_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/PQCodeDistances_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/PQCodeLoad_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/PQScanMultiPassNoPrecomputed_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/PQScanMultiPassNoPrecomputed_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/PQScanMultiPassPrecomputed_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/PQScanMultiPassPrecomputed_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/Pair_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/PerfClustering_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/PerfIVFPQAdd_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/PerfSelect_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/PolysemousTraining_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/PolysemousTraining_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/ProductQuantizer_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/ProductQuantizer_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/PtxUtils_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/ReductionOperators_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/Reductions_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/RemapIndices_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/RemapIndices_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/Select_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/StackDeviceMemory_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/StackDeviceMemory_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/StandardGpuResources_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/StandardGpuResources_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/StaticUtils_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/Tensor-inl_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/Tensor_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/TestGpuIndexFlat_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/TestGpuIndexIVFFlat_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/TestGpuIndexIVFPQ_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/TestGpuSelect_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/TestUtils_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/TestUtils_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/ThrustAllocator_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/Timer_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/Timer_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/Transpose_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/VectorResidual_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/VectorResidual_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/VectorTransform_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/VectorTransform_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/WarpSelectFloat128_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/WarpSelectFloat1_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/WarpSelectFloat256_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/WarpSelectFloat32_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/WarpSelectFloat64_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/WarpSelectFloatF1024_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/WarpSelectFloatF512_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/WarpSelectFloatT1024_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/WarpSelectFloatT512_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/WarpSelectFloat_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/WarpSelectHalf128_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/WarpSelectHalf1_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/WarpSelectHalf256_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/WarpSelectHalf32_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/WarpSelectHalf64_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/WarpSelectHalfF1024_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/WarpSelectHalfF512_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/WarpSelectHalfT1024_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/WarpSelectHalfT512_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/WarpSelectHalf_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/WarpSelectImpl_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/WarpSelectKernel_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/WarpShuffles_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/WorkerThread_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/WorkerThread_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/WriteIndex_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/annotated.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/bc_s.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/bdwn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1FaissException-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1FaissException.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1FaissException.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1CpuTimer-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1CpuTimer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1CublasHandleScope-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1CublasHandleScope.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1CudaEvent-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1CudaEvent.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1DeviceMemory-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1DeviceMemory.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1DeviceMemory.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1DeviceMemoryReservation-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1DeviceMemoryReservation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1DeviceScope-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1DeviceScope.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1DeviceTensor-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1DeviceTensor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1DeviceTensor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1DeviceVector-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1DeviceVector.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1FlatIndex-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1FlatIndex.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1GpuIndex-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1GpuIndex.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1GpuIndex.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1GpuIndexFlat-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1GpuIndexFlat.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1GpuIndexFlat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1GpuIndexFlatIP-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1GpuIndexFlatIP.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1GpuIndexFlatIP.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1GpuIndexFlatL2-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1GpuIndexFlatL2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1GpuIndexFlatL2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1GpuIndexIVF-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1GpuIndexIVF.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1GpuIndexIVF.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1GpuIndexIVFFlat-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1GpuIndexIVFFlat.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1GpuIndexIVFFlat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1GpuIndexIVFPQ-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1GpuIndexIVFPQ.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1GpuIndexIVFPQ.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1GpuResources-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1GpuResources.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1GpuResources.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1GpuResourcesThrustAllocator-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1GpuResourcesThrustAllocator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1HostTensor-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1HostTensor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1HostTensor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1IVFBase-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1IVFBase.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1IVFBase.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1IVFFlat-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1IVFFlat.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1IVFFlat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1IVFPQ-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1IVFPQ.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1IVFPQ.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1IndexProxy-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1IndexProxy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1IndexProxy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1KernelTimer-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1KernelTimer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1NoTypeTensor-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1NoTypeTensor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1StackDeviceMemory-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1StackDeviceMemory.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1StackDeviceMemory.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1StandardGpuResources-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1StandardGpuResources.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1StandardGpuResources.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1Tensor-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1Tensor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1Tensor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1WorkerThread-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1WorkerThread.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1detail_1_1SubTensor-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1detail_1_1SubTensor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1detail_1_1SubTensor_3_01TensorType_00_010_00_01PtrTraits_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/classfaiss_1_1gpu_1_1detail_1_1SubTensor_3_01TensorType_00_010_00_01PtrTraits_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/closed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/demo__imi__flat_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/demo__imi__pq_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/demo__ivfpq__indexing_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/demo__ivfpq__indexing__gpu_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/demo__sift1M_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/dir_02dc1cf4df13911cc8cfd20f07047b71.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/dir_07c2df013bb20677b8e65a9f18968d2c.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/dir_29631f2f8051359899a6ac5f9629d2be.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/dir_43be364029218a94c5bcb5d8c78d7156.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/dir_498271007b03b2a0521055e88776887b.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/dir_49d1182a3b8dfb62757c53ae905481ad.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/dir_59425e443f801f1f2fd8bbe4959a3ccf.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/dir_6b3ae6988449b0834e9596fad5d75199.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/dir_d92646511ea2c8ec2c89d5c37e8b5981.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/dir_dbd6ec420472444c618282e2c8178be7.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/dir_ea867109ea74d645e3e3cf2a6de09f37.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/doxygen.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/doxygen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/dynsections.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/faiss_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/files.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/fp16__emu_8cu_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/fp16__emu_8cuh_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/ftv2blank.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/ftv2cl.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/ftv2doc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/ftv2folderclosed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/ftv2folderopen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/ftv2lastnode.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/ftv2link.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/ftv2mlastnode.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/ftv2mnode.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/ftv2mo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/ftv2node.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/ftv2ns.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/ftv2plastnode.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/ftv2pnode.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/ftv2splitbar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/ftv2vertline.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_0x62.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_0x63.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_0x64.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_0x65.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_0x66.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_0x67.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_0x68.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_0x69.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_0x6b.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_0x6c.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_0x6d.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_0x6e.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_0x6f.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_0x70.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_0x71.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_0x72.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_0x73.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_0x74.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_0x75.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_0x76.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_0x77.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_0x78.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_0x7a.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_0x7e.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_enum.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_eval.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_func.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_func_0x63.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_func_0x64.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_func_0x65.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_func_0x66.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_func_0x67.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_func_0x68.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_func_0x69.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_func_0x6b.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_func_0x6c.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_func_0x6d.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_func_0x6e.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_func_0x6f.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_func_0x70.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_func_0x71.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_func_0x72.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_func_0x73.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_func_0x74.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_func_0x75.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_func_0x76.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_func_0x77.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_func_0x7a.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_func_0x7e.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_rela.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_type.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/functions_vars.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/hamming_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/hamming_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/hierarchy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/index__io_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/index__io_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/namespacefaiss.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/namespacefaiss_1_1gpu_1_1detail.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/namespacemembers.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/namespacemembers_enum.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/namespacemembers_func.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/namespaces.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/nav_f.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/nav_g.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/nav_h.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/open.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_61.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_61.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_62.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_62.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_63.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_63.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_64.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_64.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_65.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_65.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_66.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_66.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_67.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_67.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_68.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_68.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_69.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_69.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_6b.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_6b.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_6c.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_6c.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_6d.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_6d.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_6e.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_6e.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_6f.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_6f.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_70.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_70.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_71.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_71.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_72.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_72.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_73.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_73.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_74.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_74.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_75.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_75.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_76.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_76.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_77.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_77.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_78.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_78.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_7a.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_7a.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_7e.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/all_7e.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/classes_61.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/classes_61.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/classes_62.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/classes_62.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/classes_63.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/classes_63.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/classes_64.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/classes_64.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/classes_66.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/classes_66.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/classes_67.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/classes_67.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/classes_68.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/classes_68.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/classes_69.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/classes_69.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/classes_6b.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/classes_6b.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/classes_6c.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/classes_6c.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/classes_6d.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/classes_6d.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/classes_6e.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/classes_6e.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/classes_6f.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/classes_6f.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/classes_70.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/classes_70.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/classes_71.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/classes_71.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/classes_72.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/classes_72.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/classes_73.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/classes_73.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/classes_74.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/classes_74.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/classes_76.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/classes_76.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/classes_77.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/classes_77.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/enums_61.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/enums_61.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/enums_6d.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/enums_6d.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/enums_6f.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/enums_6f.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/enums_71.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/enums_71.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/enums_72.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/enums_72.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/enums_73.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/enums_73.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/enums_74.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/enums_74.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/enumvalues_61.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/enumvalues_61.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/enumvalues_6f.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/enumvalues_6f.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/enumvalues_71.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/enumvalues_71.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/enumvalues_72.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/enumvalues_72.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/enumvalues_73.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/enumvalues_73.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/enumvalues_74.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/enumvalues_74.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_61.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_61.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_62.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_62.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_63.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_63.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_64.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_64.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_65.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_65.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_66.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_66.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_67.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_67.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_68.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_68.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_69.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_69.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_6b.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_6b.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_6c.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_6c.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_6d.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_6d.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_6e.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_6e.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_6f.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_6f.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_70.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_70.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_71.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_71.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_72.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_72.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_73.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_73.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_74.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_74.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_75.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_75.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_76.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_76.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_77.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_77.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_7a.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_7a.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_7e.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/functions_7e.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/mag_sel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/namespaces_66.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/namespaces_66.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/nomatches.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/related_73.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/related_73.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/related_74.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/related_74.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/search.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/search.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/search_l.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/search_m.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/search_r.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/typedefs_68.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/typedefs_68.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/typedefs_69.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/typedefs_69.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_61.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_61.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_62.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_62.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_63.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_63.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_64.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_64.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_65.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_65.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_66.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_66.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_67.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_67.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_68.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_68.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_69.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_69.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_6b.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_6b.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_6c.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_6c.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_6d.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_6d.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_6e.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_6e.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_6f.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_6f.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_70.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_70.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_71.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_71.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_72.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_72.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_73.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_73.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_74.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_74.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_75.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_75.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_76.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_76.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_77.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_77.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_78.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/search/variables_78.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structOptions-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structOptions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1ArgSort-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1ArgSort.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1AutoTuneCriterion-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1AutoTuneCriterion.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1AutoTuneCriterion.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1BaseShiftDistanceCorrection-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1BaseShiftDistanceCorrection.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1BufferList-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1BufferList.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1BufferList.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1BufferList_1_1Buffer-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1BufferList_1_1Buffer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1CMax-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1CMax.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1CMin-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1CMin.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1Cloner-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1Cloner.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1Cloner.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1Clustering-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1Clustering.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1Clustering.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1ClusteringParameters-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1ClusteringParameters.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1ClusteringParameters.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1CodeCmp-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1CodeCmp.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1GenHammingComputer16-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1GenHammingComputer16.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1GenHammingComputer32-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1GenHammingComputer32.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1GenHammingComputer8-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1GenHammingComputer8.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1GenHammingComputerM8-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1GenHammingComputerM8.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1HammingComputer-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1HammingComputer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1HammingComputer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1HammingComputer16-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1HammingComputer16.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1HammingComputer20-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1HammingComputer20.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1HammingComputer32-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1HammingComputer32.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1HammingComputer4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1HammingComputer4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1HammingComputer64-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1HammingComputer64.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1HammingComputer8-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1HammingComputer8.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1HammingComputerDefault-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1HammingComputerDefault.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1HammingComputerM4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1HammingComputerM4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1HammingComputerM8-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1HammingComputerM8.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1HammingComputerM8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1HeapArray-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1HeapArray.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IDSelector-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IDSelector.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IDSelector.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IDSelectorBatch-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IDSelectorBatch.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IDSelectorBatch.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IDSelectorRange-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IDSelectorRange.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IDSelectorRange.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1Index-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1Index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1Index.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexFlat-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexFlat.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexFlat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexFlat1D-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexFlat1D.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexFlat1D.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexFlatIP-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexFlatIP.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexFlatIP.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexFlatL2-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexFlatL2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexFlatL2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexFlatL2BaseShift-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexFlatL2BaseShift.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexFlatL2BaseShift.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexIDMap-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexIDMap.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexIDMap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexIDMap2-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexIDMap2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexIDMap2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexIVF-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexIVF.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexIVF.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexIVFFlat-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexIVFFlat.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexIVFFlat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexIVFFlatStats-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexIVFFlatStats.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexIVFPQ-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexIVFPQ.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexIVFPQ.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexIVFPQCompact-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexIVFPQCompact.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexIVFPQCompact.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexIVFPQR-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexIVFPQR.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexIVFPQR.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexIVFPQStats-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexIVFPQStats.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexIVFScalarQuantizer-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexIVFScalarQuantizer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexIVFScalarQuantizer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexLSH-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexLSH.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexLSH.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexPQ-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexPQ.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexPQ.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexPQStats-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexPQStats.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexPreTransform-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexPreTransform.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexPreTransform.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexRefineFlat-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexRefineFlat.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexRefineFlat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexScalarQuantizer-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexScalarQuantizer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexScalarQuantizer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexShards-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexShards.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexShards.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexSplitVectors-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexSplitVectors.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndexSplitVectors.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndirectSort-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IndirectSort.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IntersectionCriterion-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IntersectionCriterion.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1IntersectionCriterion.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1LinearTransform-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1LinearTransform.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1LinearTransform.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1MinSumK-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1MinSumK.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1MultiIndexQuantizer-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1MultiIndexQuantizer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1MultiIndexQuantizer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1NopDistanceCorrection-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1NopDistanceCorrection.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1NormalizationTransform-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1NormalizationTransform.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1NormalizationTransform.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1OPQMatrix-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1OPQMatrix.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1OPQMatrix.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1OneRecallAtRCriterion-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1OneRecallAtRCriterion.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1OneRecallAtRCriterion.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1OperatingPoint-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1OperatingPoint.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1OperatingPoints-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1OperatingPoints.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1PCAMatrix-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1PCAMatrix.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1PCAMatrix.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1ParameterRange-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1ParameterRange.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1ParameterSpace-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1ParameterSpace.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1ParameterSpace.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1PermutationObjective-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1PermutationObjective.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1PermutationObjective.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1PolysemousTraining-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1PolysemousTraining.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1PolysemousTraining.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1ProductQuantizer-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1ProductQuantizer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1RandomGenerator-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1RandomGenerator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1RandomRotationMatrix-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1RandomRotationMatrix.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1RandomRotationMatrix.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1RangeSearchPartialResult-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1RangeSearchPartialResult.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1RangeSearchPartialResult.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1RangeSearchPartialResult_1_1QueryResult-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1RangeSearchPartialResult_1_1QueryResult.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1RangeSearchResult-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1RangeSearchResult.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1RankingScore2-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1RankingScore2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1RankingScore2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1RemapDimensionsTransform-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1RemapDimensionsTransform.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1RemapDimensionsTransform.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1ReproduceDistancesObjective-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1ReproduceDistancesObjective.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1ReproduceDistancesObjective.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1ScalarQuantizer-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1ScalarQuantizer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1ScopeDeleter-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1ScopeDeleter.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1ScopeDeleter1-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1ScopeDeleter1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1ScopeFileCloser-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1ScopeFileCloser.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1Score3Computer-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1Score3Computer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1Score3Computer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1SemiSortedArray-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1SemiSortedArray.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1SimulatedAnnealingOptimizer-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1SimulatedAnnealingOptimizer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1SimulatedAnnealingOptimizer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1SimulatedAnnealingParameters-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1SimulatedAnnealingParameters.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1SimulatedAnnealingParameters.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1SortedArray-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1SortedArray.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1VectorTransform-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1VectorTransform.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1VectorTransform.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1BitonicMergeStep.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1BitonicMergeStep_3_01K_00_01V_00_011_00_01Dir_00_01Comp_00_01Low_00_01true_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1BitonicMergeStep_3_01K_00_01V_00_011_00_01Dir_00_01Comp_00_01Low_00_01true_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1BitonicMergeStep_3_01K_00_01V_00_01N_00_01Dir_00_01Comp_00_01Low_00_01true_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1BitonicMergeStep_3_01K_00_01V_00_01N_00_01Dir_00_01Comp_00_01Low_00_01true_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1BitonicMergeStep_3_01K_00_01V_00_01N_00_01Dir_00_01Comp_00_01false_00_01false_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1BitonicMergeStep_3_01K_00_01V_00_01N_00_01Dir_00_01Comp_00_01false_00_01false_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1BitonicMergeStep_3_01K_00_01V_00_01N_00_01Dir_00_01Comp_00_01true_00_01false_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1BitonicMergeStep_3_01K_00_01V_00_01N_00_01Dir_00_01Comp_00_01true_00_01false_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1BitonicSortStep-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1BitonicSortStep.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1BitonicSortStep_3_01K_00_01V_00_011_00_01Dir_00_01Comp_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1BitonicSortStep_3_01K_00_01V_00_011_00_01Dir_00_01Comp_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1BlockMerge.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1BlockMerge_3_01NumThreads_00_01K_00_01V_00_01N_00_01L_00_01Dir_00_01Comp_00_01false_00_01FullMerge_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1BlockMerge_3_01NumThreads_00_01K_00_01V_00_01N_00_01L_00_01Dir_00_01Comp_00_01true_00_01FullMerge_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1BlockMerge_3_01NumThreads_00_01K_00_01V_00_01N_00_01L_00_01Dir_00_01Comp_017b313ea9201c4120647734aeed4b000.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1BlockMerge_3_01NumThreads_00_01K_00_01V_00_01N_00_01L_00_01Dir_00_01Comp_0bf89992e9bf2d87de573f49512e8fabd.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1BlockSelect-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1BlockSelect.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1BlockSelect_3_01K_00_01V_00_01Dir_00_01Comp_00_011_00_01NumThreadQ_00_01ThreadsPerBlock_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1BlockSelect_3_01K_00_01V_00_01Dir_00_01Comp_00_011_00_01NumThreadQ_00_01ThreadsPerBlock_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1Comparator-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1Comparator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1ConvertTo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1ConvertTo_3_01float2_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1ConvertTo_3_01float2_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1ConvertTo_3_01float4_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1ConvertTo_3_01float4_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1ConvertTo_3_01float_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1ConvertTo_3_01float_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1Converter.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1Converter_3_01float_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1Converter_3_01float_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1CublasGemm.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1CublasGemm_3_01float_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1CublasGemm_3_01float_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1FinalBlockMerge.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1FinalBlockMerge_3_011_00_01NumThreads_00_01K_00_01V_00_01NumWarpQ_00_01Dir_00_01Comp_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1FinalBlockMerge_3_011_00_01NumThreads_00_01K_00_01V_00_01NumWarpQ_00_01Dir_00_01Comp_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1FinalBlockMerge_3_012_00_01NumThreads_00_01K_00_01V_00_01NumWarpQ_00_01Dir_00_01Comp_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1FinalBlockMerge_3_012_00_01NumThreads_00_01K_00_01V_00_01NumWarpQ_00_01Dir_00_01Comp_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1FinalBlockMerge_3_014_00_01NumThreads_00_01K_00_01V_00_01NumWarpQ_00_01Dir_00_01Comp_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1FinalBlockMerge_3_014_00_01NumThreads_00_01K_00_01V_00_01NumWarpQ_00_01Dir_00_01Comp_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1FinalBlockMerge_3_018_00_01NumThreads_00_01K_00_01V_00_01NumWarpQ_00_01Dir_00_01Comp_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1FinalBlockMerge_3_018_00_01NumThreads_00_01K_00_01V_00_01NumWarpQ_00_01Dir_00_01Comp_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1GpuClonerOptions-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1GpuClonerOptions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1GpuClonerOptions.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1GpuIndexConfig-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1GpuIndexConfig.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1GpuIndexConfig.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1GpuIndexFlatConfig-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1GpuIndexFlatConfig.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1GpuIndexFlatConfig.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1GpuIndexIVFConfig-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1GpuIndexIVFConfig.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1GpuIndexIVFConfig.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1GpuIndexIVFFlatConfig-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1GpuIndexIVFFlatConfig.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1GpuIndexIVFFlatConfig.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1GpuIndexIVFPQConfig-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1GpuIndexIVFPQConfig.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1GpuIndexIVFPQConfig.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1GpuMultipleClonerOptions-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1GpuMultipleClonerOptions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1GpuMultipleClonerOptions.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1GpuParameterSpace-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1GpuParameterSpace.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1GpuParameterSpace.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1IVFFlatScan.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1IVFFlatScan_3-1_00_01L2_00_01T_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1IVFFlatScan_3-1_00_01L2_00_01T_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1IVFFlatScan_3_010_00_01L2_00_01T_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1IVFFlatScan_3_010_00_01L2_00_01T_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1IVFFlatScan_3_01128_00_01L2_00_01float_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1IVFFlatScan_3_01128_00_01L2_00_01float_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1IVFFlatScan_3_01256_00_01L2_00_01float_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1IVFFlatScan_3_01256_00_01L2_00_01float_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1IVFFlatScan_3_0164_00_01L2_00_01float_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1IVFFlatScan_3_0164_00_01L2_00_01float_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1IndexWrapper-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1IndexWrapper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1IntToLong-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1IntToLong.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1Limits.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1Limits_3_01Pair_3_01K_00_01V_01_4_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1Limits_3_01Pair_3_01K_00_01V_01_4_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1Limits_3_01float_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1Limits_3_01float_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1Limits_3_01int_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1Limits_3_01int_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1LoadCode32.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1LoadCode32_3_0112_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1LoadCode32_3_0112_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1LoadCode32_3_0116_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1LoadCode32_3_0116_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1LoadCode32_3_011_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1LoadCode32_3_011_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1LoadCode32_3_0120_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1LoadCode32_3_0120_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1LoadCode32_3_0124_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1LoadCode32_3_0124_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1LoadCode32_3_0128_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1LoadCode32_3_0128_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1LoadCode32_3_012_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1LoadCode32_3_012_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1LoadCode32_3_0132_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1LoadCode32_3_0132_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1LoadCode32_3_013_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1LoadCode32_3_013_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1LoadCode32_3_0140_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1LoadCode32_3_0140_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1LoadCode32_3_0148_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1LoadCode32_3_0148_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1LoadCode32_3_014_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1LoadCode32_3_014_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1LoadCode32_3_0156_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1LoadCode32_3_0156_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1LoadCode32_3_0164_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1LoadCode32_3_0164_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1LoadCode32_3_018_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1LoadCode32_3_018_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1LoadCode32_3_0196_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1LoadCode32_3_0196_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1LoadCodeDistances-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1LoadCodeDistances.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1LoadStore-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1LoadStore.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1Math-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1Math.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1Math_3_01float2_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1Math_3_01float2_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1Math_3_01float4_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1Math_3_01float4_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1Max-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1Max.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1Min-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1Min.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1Pair-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1Pair.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1SegmentedReduce-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1SegmentedReduce.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1StackDeviceMemory_1_1Range-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1StackDeviceMemory_1_1Range.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1StackDeviceMemory_1_1Stack-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1StackDeviceMemory_1_1Stack.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1Sum-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1Sum.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1TensorInfo-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1TensorInfo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1TensorInfoOffset-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1TensorInfoOffset.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1TensorInfoOffset_3_01T_00-1_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1TensorInfoOffset_3_01T_00-1_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1ToCPUCloner-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1ToCPUCloner.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1ToCPUCloner.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1ToGpuCloner-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1ToGpuCloner.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1ToGpuCloner.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1ToGpuClonerMultiple-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1ToGpuClonerMultiple.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1ToGpuClonerMultiple.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1WarpSelect-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1WarpSelect.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1WarpSelect_3_01K_00_01V_00_01Dir_00_01Comp_00_011_00_01NumThreadQ_00_01ThreadsPerBlock_01_4-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1WarpSelect_3_01K_00_01V_00_01Dir_00_01Comp_00_011_00_01NumThreadQ_00_01ThreadsPerBlock_01_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1traits_1_1DefaultPtrTraits-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1traits_1_1DefaultPtrTraits.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1traits_1_1RestrictPtrTraits-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/structfaiss_1_1gpu_1_1traits_1_1RestrictPtrTraits.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/sync_off.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/sync_on.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/tab_a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/tab_b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/tab_h.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/tab_s.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/tabs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/test__blas_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/test__ivfpq__codec_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/test__ivfpq__indexing_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/test__pairs__decoding_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/utils_8cpp_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/docs/html/utils_8h_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/example_makefiles/makefile.inc.Linux" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/example_makefiles/makefile.inc.Mac.brew" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/example_makefiles/makefile.inc.Mac.port" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/faiss.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/faiss.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/CMakeLists.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/GpuAutoTune.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/GpuAutoTune.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/GpuClonerOptions.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/GpuClonerOptions.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/GpuIndex.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/GpuIndex.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/GpuIndexFlat.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/GpuIndexFlat.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/GpuIndexIVF.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/GpuIndexIVF.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/GpuIndexIVFFlat.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/GpuIndexIVFFlat.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/GpuIndexIVFPQ.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/GpuIndexIVFPQ.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/GpuIndicesOptions.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/GpuResources.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/GpuResources.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/IndexProxy.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/IndexProxy.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/StandardGpuResources.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/StandardGpuResources.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/impl/BroadcastSum.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/impl/BroadcastSum.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/impl/Distance.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/impl/Distance.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/impl/FlatIndex.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/impl/FlatIndex.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/impl/IVFBase.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/impl/IVFBase.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/impl/IVFFlat.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/impl/IVFFlat.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/impl/IVFFlatScan.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/impl/IVFFlatScan.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/impl/IVFPQ.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/impl/IVFPQ.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/impl/IVFUtils.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/impl/IVFUtils.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/impl/IVFUtilsSelect1.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/impl/IVFUtilsSelect2.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/impl/InvertedListAppend.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/impl/InvertedListAppend.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/impl/L2Norm.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/impl/L2Norm.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/impl/L2Select.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/impl/L2Select.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/impl/PQCodeDistances.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/impl/PQCodeDistances.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/impl/PQCodeLoad.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/impl/PQScanMultiPassNoPrecomputed.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/impl/PQScanMultiPassNoPrecomputed.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/impl/PQScanMultiPassPrecomputed.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/impl/PQScanMultiPassPrecomputed.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/impl/RemapIndices.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/impl/RemapIndices.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/impl/VectorResidual.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/impl/VectorResidual.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/perf/CompareFlat.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/perf/CompareIVFFlat.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/perf/CompareIVFPQ.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/perf/CompareIVFPQGrid.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/perf/IndexWrapper-inl.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/perf/IndexWrapper.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/perf/PerfClustering.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/perf/PerfIVFPQAdd.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/perf/PerfSelect.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/perf/WriteIndex.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/test/CMakeLists.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/test/TestGpuIndexFlat.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/test/TestGpuIndexIVFFlat.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/test/TestGpuIndexIVFPQ.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/test/TestGpuSelect.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/test/TestUtils.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/test/TestUtils.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/test/demo_ivfpq_indexing_gpu.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/test/test_gpu_index.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/test/test_pytorch_faiss.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/BlockSelectFloat.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/BlockSelectHalf.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/BlockSelectKernel.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/Comparators.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/ConversionOperators.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/CopyUtils.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/DeviceDefs.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/DeviceMemory.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/DeviceMemory.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/DeviceTensor-inl.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/DeviceTensor.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/DeviceUtils.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/DeviceUtils.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/DeviceVector.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/Float16.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/Float16.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/HostTensor-inl.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/HostTensor.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/Limits.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/LoadStoreOperators.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/MathOperators.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/MatrixMult.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/MatrixMult.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/MemorySpace.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/MemorySpace.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/MergeNetworkBlock.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/MergeNetworkUtils.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/MergeNetworkWarp.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/NoTypeTensor.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/Pair.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/PtxUtils.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/ReductionOperators.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/Reductions.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/Select.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/StackDeviceMemory.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/StackDeviceMemory.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/StaticUtils.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/Tensor-inl.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/Tensor.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/ThrustAllocator.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/Timer.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/Timer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/Transpose.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/WarpSelectFloat.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/WarpSelectHalf.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/WarpSelectKernel.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/WarpShuffles.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/WorkerThread.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/WorkerThread.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/blockselect/BlockSelectFloat1.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/blockselect/BlockSelectFloat128.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/blockselect/BlockSelectFloat256.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/blockselect/BlockSelectFloat32.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/blockselect/BlockSelectFloat64.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/blockselect/BlockSelectFloatF1024.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/blockselect/BlockSelectFloatF512.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/blockselect/BlockSelectFloatT1024.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/blockselect/BlockSelectFloatT512.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/blockselect/BlockSelectHalf1.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/blockselect/BlockSelectHalf128.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/blockselect/BlockSelectHalf256.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/blockselect/BlockSelectHalf32.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/blockselect/BlockSelectHalf64.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/blockselect/BlockSelectHalfF1024.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/blockselect/BlockSelectHalfF512.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/blockselect/BlockSelectHalfT1024.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/blockselect/BlockSelectHalfT512.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/blockselect/BlockSelectImpl.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/nvidia/fp16_emu.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/nvidia/fp16_emu.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/warpselect/WarpSelectFloat1.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/warpselect/WarpSelectFloat128.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/warpselect/WarpSelectFloat256.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/warpselect/WarpSelectFloat32.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/warpselect/WarpSelectFloat64.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/warpselect/WarpSelectFloatF1024.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/warpselect/WarpSelectFloatF512.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/warpselect/WarpSelectFloatT1024.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/warpselect/WarpSelectFloatT512.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/warpselect/WarpSelectHalf1.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/warpselect/WarpSelectHalf128.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/warpselect/WarpSelectHalf256.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/warpselect/WarpSelectHalf32.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/warpselect/WarpSelectHalf64.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/warpselect/WarpSelectHalfF1024.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/warpselect/WarpSelectHalfF512.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/warpselect/WarpSelectHalfT1024.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/warpselect/WarpSelectHalfT512.cu" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/gpu/utils/warpselect/WarpSelectImpl.cuh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/hamming.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/hamming.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/index_io.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/index_io.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/makefile.inc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/python/demo_auto_tune.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/python/demo_ivfpq.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/python/swigfaiss_gpu.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/python/swigfaiss_gpu_wrap.cxx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/swigfaiss.swig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/tests/CMakeLists.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/tests/demo_imi_flat.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/tests/demo_imi_pq" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/tests/demo_imi_pq.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/tests/demo_ivfpq_indexing" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/tests/demo_ivfpq_indexing.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/tests/demo_sift1M.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/tests/test_blas.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/tests/test_build_blocks.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/tests/test_index.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/tests/test_index_composite.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/tests/test_ivfpq_codec.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/tests/test_ivfpq_indexing.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/tutorial/CMakeLists.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/tutorial/cpp/1-Flat.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/tutorial/cpp/2-IVFFlat.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/tutorial/cpp/3-IVFPQ.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/tutorial/cpp/CMakeLists.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/tutorial/python/1-Flat.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/tutorial/python/2-IVFFlat.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/tutorial/python/3-IVFPQ.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/utils.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faiss/utils.h" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/L2space.h" afterPath="$PROJECT_DIR$/L2space.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sift_1b.cpp" afterPath="$PROJECT_DIR$/sift_1b.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
@@ -1350,7 +34,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
@@ -1363,21 +47,32 @@
       <file leaf-file-name="sift_1b.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sift_1b.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="327" column="76" lean-forward="false" selection-start-line="327" selection-start-column="76" selection-end-line="327" selection-end-column="76" />
+            <state relative-caret-position="954">
+              <caret line="151" column="87" lean-forward="false" selection-start-line="151" selection-start-column="87" selection-end-line="151" selection-end-column="87" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="L2space.h" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="L2space.h" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/L2space.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-              <folding>
-                <element signature="e#1277#1294#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="1714">
+              <caret line="141" column="30" lean-forward="true" selection-start-line="141" selection-start-column="30" selection-end-line="141" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1395,7 +90,7 @@
       <file leaf-file-name="hnswalg.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hnswalg.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-234">
+            <state relative-caret-position="684">
               <caret line="68" column="69" lean-forward="false" selection-start-line="68" selection-start-column="69" selection-end-line="68" selection-end-column="69" />
               <folding />
             </state>
@@ -1405,7 +100,7 @@
       <file leaf-file-name="visited_list_pool.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/visited_list_pool.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
+            <state relative-caret-position="18">
               <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
@@ -1421,12 +116,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/hnswalg_prev.h" />
-        <option value="$PROJECT_DIR$/L2space.h" />
         <option value="$PROJECT_DIR$/visited_list_pool.h" />
         <option value="$PROJECT_DIR$/hnswalg.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/sift_1b.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/sift_1b.cpp" />
+        <option value="$PROJECT_DIR$/L2space.h" />
       </list>
     </option>
   </component>
@@ -1497,12 +192,12 @@
       <option name="presentableId" value="Default" />
       <updated>1513274102208</updated>
       <workItem from="1513274103847" duration="3152000" />
-      <workItem from="1514803320210" duration="462000" />
+      <workItem from="1514803320210" duration="830000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3614000" />
+    <option name="totallyTimeSpent" value="3982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -1560,9 +255,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
           <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding>
-            <element signature="e#1277#1294#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1600,36 +293,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/deep_10m.cpp" />
     <entry file="file://$PROJECT_DIR$/hnswalg_prev.h" />
-    <entry file="file://$PROJECT_DIR$/L2space.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding>
-            <element signature="e#1277#1294#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/visited_list_pool.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hnswlib.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-32">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hnswalg.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-234">
-          <caret line="68" column="69" lean-forward="false" selection-start-line="68" selection-start-column="69" selection-end-line="68" selection-end-column="69" />
           <folding />
         </state>
       </provider>
@@ -1642,18 +309,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sift_1b.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="327" column="76" lean-forward="false" selection-start-line="327" selection-start-column="76" selection-end-line="327" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hnswalg.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="68" column="69" lean-forward="false" selection-start-line="68" selection-start-column="69" selection-end-line="68" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sift_1b.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="954">
+          <caret line="151" column="87" lean-forward="false" selection-start-line="151" selection-start-column="87" selection-end-line="151" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visited_list_pool.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L2space.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1714">
+          <caret line="141" column="30" lean-forward="true" selection-start-line="141" selection-start-column="30" selection-end-line="141" selection-end-column="30" />
           <folding />
         </state>
       </provider>

@@ -166,10 +166,6 @@ static float test_approx(vtype *massQ, size_t qsize, HierarchicalNSW<dist_t, vty
 	size_t correct = 0;
     size_t total = 0;
 
-    //float massfQ[qsize * vecdim];
-    //for (int i = 0; i < qsize * vecdim; i++)
-    //    massfQ[i] = (1.0)*massQ[i];
-
 	//uncomment to test in parallel mode:
 	//#pragma omp parallel for
 	for (int i = 0; i < qsize; i++) {
@@ -190,16 +186,6 @@ static float test_approx(vtype *massQ, size_t qsize, HierarchicalNSW<dist_t, vty
         //                                             appr_alg.getDataByInternalId(appr_alg.enterpoint_node));
         //appr_alg.nev9zka += dist2gt / qsize;
 
-//		while (gt.size()) {
-//			g.insert(gt.top().second);
-//			gt.pop();
-//		}
-//
-//		while (result.size()) {
-//			if (g.find(result.top().second) != g.end())
-//				correct++;
-//			result.pop();
-//		}
         total += gt.size();
 
         while (gt.size()) {
@@ -222,17 +208,17 @@ static void test_vs_recall(vtype *massQ, size_t qsize, HierarchicalNSW<dist_t, v
                            size_t vecdim, vector<std::priority_queue< std::pair<dist_t, labeltype >>> &answers,
                            size_t k, bool pq = false)
 {
-	vector<size_t> efs = {k}; //= {30, 100, 460};
-//    if (k < 30) {
-//        for (int i = k; i < 30; i++) efs.push_back(i);
-//        for (int i = 30; i < 100; i += 10) efs.push_back(i);
-//        for (int i = 100; i <= 500; i += 40) efs.push_back(i);
-//    }
-//	else if (k < 100) {
-//        for (int i = k; i < 100; i += 10) efs.push_back(i);
-//        for (int i = 100; i <= 500; i += 40) efs.push_back(i);
-//    } else
-//        for (int i = k; i <= 500; i += 40) efs.push_back(i);
+	vector<size_t> efs;// = {k}; //= {30, 100, 460};
+    if (k < 30) {
+        for (int i = k; i < 30; i++) efs.push_back(i);
+        for (int i = 30; i < 100; i += 10) efs.push_back(i);
+        for (int i = 100; i <= 500; i += 40) efs.push_back(i);
+    }
+	else if (k < 100) {
+        for (int i = k; i < 100; i += 10) efs.push_back(i);
+        for (int i = 100; i <= 500; i += 40) efs.push_back(i);
+    } else
+        for (int i = k; i <= 500; i += 40) efs.push_back(i);
 
 	for (size_t ef : efs) {
 		appr_alg.ef_ = ef;
@@ -340,7 +326,6 @@ static void _hnsw_test(const char *path_pq, const char *path_learn,
                        const int vecdim, const int efConstruction, const int M, const int M_PQ)
 {
     const bool PQ = false; //(M_PQ != -1);//(path_codebooks && path_tables);
-
     const char *path_data_pq = "/home/dbaranchuk/deep_base_pq.bvecs";
 
     const std::map<size_t, std::pair<size_t, size_t>> M_map = {{vecsize, {M, 2*M}}};
@@ -439,7 +424,6 @@ static void _hnsw_test(const char *path_pq, const char *path_learn,
     }
     //appr_alg->count_repeated_edges();
     //appr_alg->printListsize();
-    //appr_alg->reorder_graph();
     //appr_alg->check_connectivity(massQA, qsize);
     //appr_alg->printNumElements();
 
@@ -474,10 +458,10 @@ void hnsw_test(const char *l2space_type,
         _hnsw_test<float, float>(path_pq, path_learn, path_codebooks, path_tables, path_data, path_q,
                                  path_gt, path_info, path_edges, L2SpaceType::Float,
                                  k, vecsize, qsize, vecdim, efConstruction, M, M_PQ);
-
-    else if (!strcmp (l2space_type, "new_pq"))
-        _hnsw_test<float, float>(path_pq, path_learn,
-                path_codebooks, path_tables, path_data, path_q,
-                                         path_gt, path_info, path_edges, L2SpaceType::NewPQ,
-                                         k, vecsize, qsize, vecdim, efConstruction, M, M_PQ);
+//
+//    else if (!strcmp (l2space_type, "new_pq"))
+//        _hnsw_test<float, float>(path_pq, path_learn,
+//                path_codebooks, path_tables, path_data, path_q,
+//                                         path_gt, path_info, path_edges, L2SpaceType::NewPQ,
+//                                         k, vecsize, qsize, vecdim, efConstruction, M, M_PQ);
 }

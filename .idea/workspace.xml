@@ -11,7 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c0ce2bf3-d0fb-4ea2-b1fb-02acb635186a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/L2space.h" afterPath="$PROJECT_DIR$/L2space.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sift_1b.cpp" afterPath="$PROJECT_DIR$/sift_1b.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
@@ -70,8 +69,8 @@
       <file leaf-file-name="L2space.h" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/L2space.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1714">
-              <caret line="141" column="30" lean-forward="true" selection-start-line="141" selection-start-column="30" selection-end-line="141" selection-end-column="30" />
+            <state relative-caret-position="-842">
+              <caret line="31" column="58" lean-forward="false" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -192,12 +191,12 @@
       <option name="presentableId" value="Default" />
       <updated>1513274102208</updated>
       <workItem from="1513274103847" duration="3152000" />
-      <workItem from="1514803320210" duration="830000" />
+      <workItem from="1514803320210" duration="934000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3982000" />
+    <option name="totallyTimeSpent" value="4086000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -354,8 +353,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/L2space.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1714">
-          <caret line="141" column="30" lean-forward="true" selection-start-line="141" selection-start-column="30" selection-end-line="141" selection-end-column="30" />
+        <state relative-caret-position="-842">
+          <caret line="31" column="58" lean-forward="false" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
           <folding />
         </state>
       </provider>

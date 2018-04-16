@@ -39,8 +39,8 @@
       <file leaf-file-name="run_sift.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/run_sift.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="681">
-              <caret line="47" column="10" lean-forward="true" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
+            <state relative-caret-position="519">
+              <caret line="38" column="37" lean-forward="false" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -233,12 +233,12 @@
       <workItem from="1523890703232" duration="1792000" />
       <workItem from="1523895598809" duration="1612000" />
       <workItem from="1523899422708" duration="830000" />
-      <workItem from="1523920713966" duration="907000" />
+      <workItem from="1523920713966" duration="947000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13109000" />
+    <option name="totallyTimeSpent" value="13149000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="391" y="88" width="1857" height="1092" extended-state="6" />
@@ -703,8 +703,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/run_sift.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="681">
-          <caret line="47" column="10" lean-forward="true" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
+        <state relative-caret-position="519">
+          <caret line="38" column="37" lean-forward="false" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
           <folding />
         </state>
       </provider>

@@ -32,7 +32,7 @@ path_data="${PWD}/data/mysift"
 path_model="${PWD}/models/mysift"
 
 path_base="${path_data}/mysift_base.fvecs"
-path_gt="${path_data}/mysift_groundtruth.ivecs"
+path_gt="${PWD}/data/sift/sift_groundtruth.ivecs"
 path_q="${path_data}/mysift_queries.fvecs"
 
 path_edges="${path_model}/hnsw_M${M}_ef${efConstruction}.ivecs"

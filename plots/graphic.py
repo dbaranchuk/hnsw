@@ -22,30 +22,6 @@ SIFT_O_IMI_16384_txt = '''
 0.9999	
 '''
 
-SIFT_O_IMI_4096_txt = '''
-0.0004
-0.001
-0.0016
-0.0033
-0.0072
-0.0137
-0.0259
-0.0466
-0.0819
-0.1338
-0.2063
-0.3041
-0.4193
-0.5398
-0.6661
-0.7804
-0.8697
-0.9345
-0.9743
-0.9888
-0.9968
-'''
-
 SIFT_Hybrid_txt = '''
 0.0004	
 0.0004	
@@ -70,52 +46,76 @@ SIFT_Hybrid_txt = '''
 0.9969	
 '''
 
-SIFT_Subgroups_50_txt = '''
-0.0021
-0.0043
-0.0092
-0.0174
-0.0341
-0.0555
-0.0877
-0.1312
-0.176
-0.2273
-0.3239
-0.4386
-0.5655
-0.6894
-0.7976
-0.8733
-0.9267
-0.9565
-0.9727
-0.9795
-0.9814
+SIFT_Pruning_25_txt = '''
+0.0001
+0.0006
+0.0017
+0.0031
+0.0068
+0.0151
+0.0322
+0.0578
+0.1110
+0.2000
+0.3250
+0.4713
+0.6125
+0.7382
+0.8275
+0.8909
+0.9363
+0.9648
+0.9819
+0.9932
+0.9970
 '''
 
-SIFT_NEW_PRUNING_txt = '''
+SIFT_Pruning_50_txt = '''
 0.0001
-0.0004
-0.0016
-0.0028
-0.0060
-0.0112
-0.0203
-0.0418
-0.0870
-0.1617
-0.2683
-0.4008
-0.5402
-0.6760
-0.7911
-0.8772
-0.9363
-0.9687
-0.9866
-0.9955
-0.9984
+0.0006
+0.0018
+0.0032
+0.0078
+0.0160
+0.0304
+0.0544
+0.1032
+0.1828
+0.2958
+0.4242
+0.5629
+0.6973
+0.8099
+0.8901
+0.9448
+0.9756
+0.9916
+0.9975
+0.9999
+'''
+
+SIFT_Pruning_75_txt = '''
+0.0001
+0.0006
+0.0020
+0.0037
+0.0077
+0.0145
+0.0283
+0.0528
+0.0968
+0.1646
+0.2660
+0.3891
+0.5175
+0.6517
+0.7707
+0.8621
+0.9259
+0.9628
+0.9837
+0.9948
+0.9982
 '''
 
 DEEP_O_IMI_16384_txt = '''
@@ -166,30 +166,6 @@ DEEP_Hybrid_txt = '''
 0.9967	
 '''
 
-DEEP_Subgroups_50_txt = '''
-0.0058
-0.0106
-0.0202
-0.0374
-0.0681
-0.1103
-0.1544
-0.2066
-0.2532
-0.3116
-0.4011
-0.5056
-0.6226
-0.7272
-0.8197
-0.8853
-0.9299
-0.9571
-0.9709
-0.9772
-0.9796
-'''
-
 DEEP_O_IMI_4096_txt='''
 0.0007
 0.0014
@@ -214,28 +190,76 @@ DEEP_O_IMI_4096_txt='''
 0.989
 '''
 
-DEEP_NEW_PRUNING_txt = '''
-0.0003
-0.0006
-0.0013
-0.0025
-0.0063
-0.0131
-0.0251
-0.0515
-0.1181
-0.2200
-0.3380
-0.4675
-0.6042
-0.7192
-0.8205
-0.8942
-0.9435
-0.9733
-0.9893
-0.9955
-0.9999
+DEEP_Pruning_25_txt = '''
+0.0004
+0.0011
+0.0019
+0.0043
+0.0092
+0.0220
+0.0445
+0.0849
+0.1618
+0.2843
+0.4106
+0.5418
+0.6708
+0.7693
+0.8428
+0.8978
+0.9360
+0.9623
+0.9805
+0.9907
+0.9959
+'''
+
+DEEP_Pruning_50_txt = '''
+0.0004
+0.0011
+0.0019
+0.0041
+0.0107
+0.0215
+0.0421
+0.0798
+0.1482
+0.2622
+0.3764
+0.5015
+0.6307
+0.7436
+0.8366
+0.9054
+0.9479
+0.9760
+0.9891
+0.9956
+0.9987
+'''
+
+DEEP_Pruning_75_txt = '''
+0.0004
+0.0011
+0.0019
+0.0049
+0.0106
+0.0221
+0.0416
+0.0775
+0.1381
+0.2387
+0.3494
+0.4674
+0.5919
+0.7087
+0.8067
+0.8826
+0.9348
+0.9653
+0.9860
+0.9940
+0.9983
 '''
 
 from matplotlib.backends.backend_pdf import PdfPages
@@ -251,47 +275,50 @@ k = range(21)
 dataset = "DEEP"
 if dataset == "SIFT":
     O_IMI = re.findall(r"[0-9.]+", SIFT_O_IMI_16384_txt)
-    Subgroups_50 = re.findall(r"[0-9.]+", SIFT_Subgroups_50_txt)
-    O_IMI_4096 = re.findall(r"[0-9.]+", SIFT_O_IMI_4096_txt)
     Hybrid = re.findall(r"[0-9.]+", SIFT_Hybrid_txt)
-    Pruning = re.findall(r"[0-9.]+", SIFT_NEW_PRUNING_txt)
+    Pruning25 = re.findall(r"[0-9.]+", SIFT_Pruning_25_txt)
+    Pruning50 = re.findall(r"[0-9.]+", SIFT_Pruning_50_txt)
+    Pruning75 = re.findall(r"[0-9.]+", SIFT_Pruning_75_txt)
 
-    plt.figure(figsize=[8,4])
-    lineIMI, = plt.plot(k, O_IMI, '--r', label = 'Inverted Multi-Index K=$2^{14}$')
-    lineIMI_4096, = plt.plot(k, O_IMI_4096, 'r', label = 'Inverted Multi-Index K=$2^{12}$')
-    lineHybrid, = plt.plot(k, Hybrid, 'g', label = 'Inverted Index')
-    linePruning, = plt.plot(k, Pruning, 'b', label = 'Inverted Index\nGrouping + Pruning')
+    plt.figure(figsize=[5.5,4])
+    lineIMI, = plt.plot(k, O_IMI, 'r', label = 'Inverted Multi-Index $K{=}2^{14}$')
+    lineHybrid, = plt.plot(k, Hybrid, 'g', label = 'Inverted Index $K{=}2^{20}$')
+    #linePruning, = plt.plot(k, Pruning25, '-b', label = 'Inverted Index\nGrouping+Pruning 25%')
+    linePruning, = plt.plot(k, Pruning50, 'b', label = 'Inverted Index $K{=}2^{20}$\nGrouping+Pruning')
+    #linePruning, = plt.plot(k, Pruning75, '-.b', label = 'Inverted Index\nGrouping+Pruning 75%')
 
     plt.xticks(range(0, 21, 1))
     plt.yticks(numpy.arange(0., 1.1, 0.1))
 
     plt.axis([0, 20, 0, 1])
-    plt.xlabel('Log$_2$R', fontsize=16)
-    plt.ylabel('Recall@R', fontsize=16)
-    plt.legend(frameon = True, fontsize=13, loc=2)
+    plt.xlabel('Log$_2$R', fontsize=12)
+    #plt.ylabel('Recall@R', fontsize=12)
+    plt.legend(frameon = True, fontsize=10, loc=2)
 
     pp = PdfPages('recallR_SIFT.pdf')
     pp.savefig(bbox_inches='tight')
     pp.close()
 else:
     O_IMI = re.findall(r"[0-9.]+", DEEP_O_IMI_16384_txt)
-    Subgroups_50 = re.findall(r"[0-9.]+", DEEP_Subgroups_50_txt)
-    O_IMI_4096 = re.findall(r"[0-9.]+", DEEP_O_IMI_4096_txt)
     Hybrid = re.findall(r"[0-9.]+", DEEP_Hybrid_txt)
-    Pruning = re.findall(r"[0-9.]+", DEEP_NEW_PRUNING_txt)
-    plt.figure(figsize=[8,4])
-    lineIMI, = plt.plot(k, O_IMI, '--r', label = 'Inverted Multi-Index K=$2^{14}$')
-    lineIMI_4096, = plt.plot(k, O_IMI_4096, 'r', label = 'Inverted Multi-Index K=$2^{12}$')
-    lineHybrid, = plt.plot(k, Hybrid, 'g', label = 'Inverted Index')
-    linePruning, = plt.plot(k, Pruning, 'b', label = 'Inverted Index\nGrouping + Pruning')
+    Pruning25 = re.findall(r"[0-9.]+", DEEP_Pruning_25_txt)
+    Pruning50 = re.findall(r"[0-9.]+", DEEP_Pruning_50_txt)
+    Pruning75 = re.findall(r"[0-9.]+", DEEP_Pruning_75_txt)
+
+    plt.figure(figsize=[5.5,4])
+    lineIMI, = plt.plot(k, O_IMI, 'r', label = 'Inverted Multi-Index $K{=}2^{14}$')
+    lineHybrid, = plt.plot(k, Hybrid, 'g', label = 'Inverted Index $K{=}2^{20}$')
+    #linePruning, = plt.plot(k, Pruning25, '-b', label = 'Inverted Index\nGrouping+Pruning 25%')
+    linePruning, = plt.plot(k, Pruning50, 'b', label = 'Inverted Index $K{=}2^{20}$\nGrouping+Pruning')
+    #linePruning, = plt.plot(k, Pruning75, '-.b', label = 'Inverted Index\nGrouping+Pruning 75%')
 
     plt.xticks(range(0, 21, 1))
     plt.yticks(numpy.arange(0., 1.1, 0.1))
 
-    plt.axis([0, 20, 0, 1])
-    plt.xlabel('Log$_2$R', fontsize=16)
-    plt.ylabel('Recall@R', fontsize=16)
-    plt.legend(frameon = True, fontsize=13, loc=2)
+    plt.axis([0, 20, 0., 1.])
+    plt.xlabel('Log$_2$R', fontsize=12)
+    plt.ylabel('Recall@R', fontsize=12)
+    plt.legend(frameon = True, fontsize=10, loc=2)
 
     pp = PdfPages('recallR_DEEP.pdf')
     pp.savefig(bbox_inches='tight')

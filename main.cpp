@@ -2,15 +2,6 @@
 #include <cstring>
 #include <cassert>
 
-void hybrid_test(const char *, const char *, const char *,
-                 const char *, const char *,
-                 const char *, const char *, const char *,
-                 const char *, const char *, const char *,
-                 const char *, const char *,
-                 const int, const int, const int, const int, const int, const int,
-                 const int, const int, const int, const int, const int, const int);
-
-//void deep_test10M();
 void hnsw_test( const char *,
                 const char *, const char *,
                 const char *, const char *, const char *, const char *,
@@ -50,11 +41,11 @@ int main(int argc, char **argv) {
     size_t vecsize = 1000000000;
     size_t qsize = 10000;
     size_t vecdim = 128;
-    size_t M = 4;
-    size_t efConstruction = 240;
+    size_t M = 16;
+    size_t efConstruction = 300;
     size_t ncentroids;
     size_t nsubcentroids;
-    size_t efSearch = 240;
+    size_t efSearch = 300;
     size_t M_PQ = 16;
     size_t nprobes = 64;
     size_t max_codes = 10000;
@@ -68,12 +59,9 @@ int main(int argc, char **argv) {
     const char *path_edges = NULL;
     const char *path_info = NULL;
 
-    const char *path_index = NULL;
-    const char *path_precomputed_idxs = NULL;
     const char *path_pq = NULL;
     const char *path_norm_pq = NULL;
     const char *path_learn = NULL;
-    const char *path_centroids = NULL;
 
     const char *path_groups;
     const char *path_idxs;
@@ -118,17 +106,8 @@ int main(int argc, char **argv) {
         else if (!strcmp (a, "-path_norm_pq") && i+1 < argc) {
             path_norm_pq = argv[++i];
         }
-        else if (!strcmp (a, "-path_precomputed_idx") && i+1 < argc) {
-            path_precomputed_idxs = argv[++i];
-        }
-        else if (!strcmp (a, "-path_index") && i+1 < argc) {
-            path_index = argv[++i];
-        }
         else if (!strcmp (a, "-path_learn") && i+1 < argc) {
             path_learn = argv[++i];
-        }
-        else if (!strcmp (a, "-path_centroids") && i+1 < argc) {
-            path_centroids = argv[++i];
         }
         else if (!strcmp (a, "-path_groups") && i+1 < argc) {
             path_groups = argv[++i];
@@ -205,8 +184,6 @@ int main(int argc, char **argv) {
               path_codebooks, path_tables, path_data, path_q,
               path_gt, path_info, path_edges,
               k, vecsize, qsize, vecdim, efConstruction, M, M_PQ);
-
-
 
     return 0;  
 };

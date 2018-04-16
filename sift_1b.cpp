@@ -183,16 +183,15 @@ static float test_approx(vtype *massQ, size_t nq, HierarchicalNSW<dist_t, vtype>
 //            gt.pop();
 //        }
 
-        int j = 0;
+        int j = k-1;
         while (result.size()) {
 //            if (g.find(result.top().second) != g.end())
 //                correct++;
-            res[j++] = result.top().second;
+            res[j--] = result.top().second;
             result.pop();
         }
         out.write((char *) &k, sizeof(uint32_t));
         out.write((char *) res, k * sizeof(uint32_t));
-
     }
 	return 1.0f*correct / total;
 }

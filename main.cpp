@@ -78,6 +78,7 @@ int main(int argc, char **argv) {
         }
         else if (!strcmp (a, "-path_data") && i+1 < argc) {
             path_data = argv[++i];
+        }
         else if (!strcmp (a, "-path_info") && i+1 < argc) {
             path_info = argv[++i];
         }

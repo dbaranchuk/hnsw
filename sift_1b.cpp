@@ -58,7 +58,6 @@ public:
 #endif
 
 
-
 /**
 * Returns the peak (maximum so far) resident set size (physical
 * memory use) measured in bytes, or zero if the value cannot be
@@ -158,19 +157,22 @@ static void get_gt(unsigned int *massQA, size_t qsize, vector<std::priority_queu
 }
 
 template <typename dist_t, typename vtype>
-static float test_approx(vtype *massQ, size_t qsize, HierarchicalNSW<dist_t, vtype> &appr_alg,
-                         size_t vecdim, vector<std::priority_queue< std::pair<dist_t, labeltype >>> &answers,
+static float test_approx(vtype *massQ, size_t nq, HierarchicalNSW<dist_t, vtype> &appr_alg,
+                         size_t d, vector<std::priority_queue< std::pair<dist_t, labeltype >>> &answers,
                          size_t k)
 {
 	size_t correct = 0;
     size_t total = 0;
 
-	//uncomment to test in parallel mode:
-	#pragma omp parallel for
-	for (int i = 0; i < qsize; i++) {
+    int res[k];
+    std::ofstream out("triplet_gt.ivecs", std::ios::binary);
+
+    //uncomment to test in parallel mode:
+    #pragma omp parallel for
+	for (int i = 0; i < nq; i++) {
 		std::priority_queue< std::pair<dist_t, labeltype >> result;
 
-        result = appr_alg.searchKnn(massQ + vecdim*i, k);
+        result = appr_alg.searchKnn(massQ + d*i, k);
 
 //        std::priority_queue< std::pair<dist_t, labeltype >> gt(answers[i]);
 //		  unordered_set <labeltype> g;
@@ -181,11 +183,15 @@ static float test_approx(vtype *massQ, size_t qsize, HierarchicalNSW<dist_t, vty
 //            gt.pop();
 //        }
 
+        int j = 0;
         while (result.size()) {
 //            if (g.find(result.top().second) != g.end())
 //                correct++;
+            res[j++] = result.top().second;
             result.pop();
         }
+        out.write((char *) &k, sizeof(uint32_t));
+        out.write((char *) res, k * sizeof(uint32_t));
 
     }
 	return 1.0f*correct / total;

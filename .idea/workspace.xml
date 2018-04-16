@@ -30,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="735">
-              <caret line="112" column="9" lean-forward="true" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
+              <caret line="112" column="9" lean-forward="false" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -40,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/run_sift.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="843">
-              <caret line="56" column="24" lean-forward="true" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+              <caret line="56" column="24" lean-forward="false" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -59,8 +59,8 @@
       <file leaf-file-name="sift_1b.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sift_1b.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="315" column="31" lean-forward="true" selection-start-line="315" selection-start-column="31" selection-end-line="315" selection-end-column="31" />
+            <state relative-caret-position="69">
+              <caret line="170" column="28" lean-forward="false" selection-start-line="170" selection-start-column="28" selection-end-line="170" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -71,7 +71,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="18">
-                <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+                <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -185,7 +185,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/hnsw-grouping" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -230,15 +230,15 @@
       <workItem from="1518529234994" duration="663000" />
       <workItem from="1523807141938" duration="206000" />
       <workItem from="1523888418812" duration="1772000" />
-      <workItem from="1523890703232" duration="1383000" />
+      <workItem from="1523890703232" duration="1637000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9351000" />
+    <option name="totallyTimeSpent" value="9605000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="391" y="88" width="1857" height="1092" extended-state="6" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13261455" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -675,7 +675,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="18">
-            <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -685,7 +685,7 @@
     <entry file="file://$PROJECT_DIR$/run_sift.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="843">
-          <caret line="56" column="24" lean-forward="true" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+          <caret line="56" column="24" lean-forward="false" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -693,15 +693,15 @@
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
-          <caret line="112" column="9" lean-forward="true" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
+          <caret line="112" column="9" lean-forward="false" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sift_1b.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="315" column="31" lean-forward="true" selection-start-line="315" selection-start-column="31" selection-end-line="315" selection-end-column="31" />
+        <state relative-caret-position="69">
+          <caret line="170" column="28" lean-forward="false" selection-start-line="170" selection-start-column="28" selection-end-line="170" selection-end-column="28" />
           <folding />
         </state>
       </provider>

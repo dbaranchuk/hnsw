@@ -278,8 +278,8 @@ static void _hnsw_test(const char *path_data, const char *path_q,
     //loadXvecs<unsigned int>(path_gt, massQA.data(), qsize, gt_dim);
 
     cout << "Loading queries:\n";
-    vtype massQ[qsize * vecdim];
-    loadXvecs<vtype>(path_q, massQ, qsize, vecdim);
+    std::vector<vtype> massQ(qsize * vecdim);
+    loadXvecs<vtype>(path_q, massQ.data(), qsize, vecdim);
 
     SpaceInterface<dist_t> *l2space;
 
@@ -308,8 +308,6 @@ static void _hnsw_test(const char *path_data, const char *path_q,
         ifstream input(path_data, ios::binary);
         vtype mass[vecdim];
         readXvec<vtype>(input, mass, vecdim);
-        //unsigned char mass[M_PQ];
-        //readXvec<unsigned char>(input, mass, M_PQ);
         appr_alg->addPoint((void *) mass, j1);
 
         size_t report_every = 1000000;
@@ -344,7 +342,7 @@ static void _hnsw_test(const char *path_data, const char *path_q,
     //get_gt<dist_t>(massQA.data(), qsize, answers, gt_dim, k);
 
     cout << "Loaded gt\n";
-    test_vs_recall<dist_t, vtype>(massQ, qsize, *appr_alg, vecdim, answers, k);
+    test_vs_recall<dist_t, vtype>(massQ.data(), qsize, *appr_alg, vecdim, answers, k);
     cout << "Actual memory usage: " << getCurrentRSS() / 1000000 << " Mb \n";
 
     delete l2space;

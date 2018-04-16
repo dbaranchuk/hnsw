@@ -263,8 +263,7 @@ static void loadXvecs(const char *path, format *mass, const int n, const int d)
 }
 
 template<typename dist_t, typename vtype>
-static void _hnsw_test(const char *path_pq,
-                       const char *path_codebooks, const char *path_tables,
+static void _hnsw_test(const char *path_codebooks, const char *path_tables,
                        const char *path_data, const char *path_q,
                        const char *path_gt, const char *path_info, const char *path_edges,
                        L2SpaceType l2SpaceType,
@@ -275,10 +274,10 @@ static void _hnsw_test(const char *path_pq,
     const std::map<size_t, std::pair<size_t, size_t>> M_map = {{vecsize, {M, 2*M}}};
     //
     const std::vector<size_t> elements_per_level;// = {100000000, 5000000, 250000, 12500, 625, 32};
-    cout << "Loading GT:\n";
-    const int gt_dim = 100;
-    unsigned int *massQA = new unsigned int[qsize * gt_dim];
-    loadXvecs<unsigned int>(path_gt, massQA, qsize, gt_dim);
+    //cout << "Loading GT:\n";
+    //const int gt_dim = 100;
+    //std::vector<unsigned int> massQA(qsize * gt_dim);
+    //loadXvecs<unsigned int>(path_gt, massQA.data(), qsize, gt_dim);
 
     cout << "Loading queries:\n";
     vtype massQ[qsize * vecdim];
@@ -343,30 +342,29 @@ static void _hnsw_test(const char *path_pq,
 
     vector<std::priority_queue< std::pair<dist_t, labeltype >>> answers;
 
-    cout << "Parsing gt:\n";
-    get_gt<dist_t>(massQA, qsize, answers, gt_dim, k);
+    //cout << "Parsing gt:\n";
+    //get_gt<dist_t>(massQA.data(), qsize, answers, gt_dim, k);
 
     cout << "Loaded gt\n";
     test_vs_recall<dist_t, vtype>(massQ, qsize, *appr_alg, vecdim, answers, k);
     cout << "Actual memory usage: " << getCurrentRSS() / 1000000 << " Mb \n";
 
-    delete massQA;
     delete l2space;
 }
 
-void hnsw_test(const char *l2space_type, const char *path_pq,
+void hnsw_test(const char *l2space_type,
                const char *path_codebooks, const char *path_tables, const char *path_data, const char *path_q,
                const char *path_gt, const char *path_info, const char *path_edges,
                const int k, const int vecsize, const int qsize,
                const int vecdim, const int efConstruction, const int M, const int M_PQ)
 {
     if (!strcmp (l2space_type, "int"))
-        _hnsw_test<int, unsigned char>(path_pq, path_codebooks, path_tables, path_data, path_q,
+        _hnsw_test<int, unsigned char>(path_codebooks, path_tables, path_data, path_q,
                         path_gt, path_info, path_edges, L2SpaceType::Int,
                         k, vecsize, qsize, vecdim, efConstruction, M, M_PQ);
 
     else if (!strcmp (l2space_type, "float"))
-        _hnsw_test<float, float>(path_pq, path_codebooks, path_tables, path_data, path_q,
+        _hnsw_test<float, float>(path_codebooks, path_tables, path_data, path_q,
                                  path_gt, path_info, path_edges, L2SpaceType::Float,
                                  k, vecsize, qsize, vecdim, efConstruction, M, M_PQ);
 }

@@ -3,7 +3,7 @@
 #include <cassert>
 
 void hnsw_test( const char *, const char *,
-                const char *, const char *, const char *, const char *,
+                const char *, const char *, const char *,
                 const char *, const char *, const char *,
                 const int, const int, const int, const int, const int, const int, const int);
 
@@ -54,9 +54,6 @@ int main(int argc, char **argv) {
     const char *path_edges = NULL;
     const char *path_info = NULL;
 
-    const char *path_pq = NULL;
-    const char *path_norm_pq = NULL;
-
     const char *l2space_type = NULL; //{int, float, new_pq}
     int k = 1, ret, ep;
 
@@ -90,12 +87,6 @@ int main(int argc, char **argv) {
         }
         else if (!strcmp (a, "-path_gt") && i+1 < argc) {
             path_gt = argv[++i];
-        }
-        else if (!strcmp (a, "-path_pq") && i+1 < argc) {
-            path_pq = argv[++i];
-        }
-        else if (!strcmp (a, "-path_norm_pq") && i+1 < argc) {
-            path_norm_pq = argv[++i];
         }
         /** Int Parameters **/
         else if (!strcmp (a, "-k") && i+1 < argc) {
@@ -145,8 +136,7 @@ int main(int argc, char **argv) {
     //    exit(1);
     //}
 
-    hnsw_test(l2space_type,
-              path_pq, path_codebooks, path_tables, path_data, path_q,
+    hnsw_test(l2space_type, path_codebooks, path_tables, path_data, path_q,
               path_gt, path_info, path_edges,
               k, vecsize, qsize, vecdim, efConstruction, M, M_PQ);
 

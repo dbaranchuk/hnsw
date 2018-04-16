@@ -12,11 +12,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0ce2bf3-d0fb-4ea2-b1fb-02acb635186a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hnswalg.h" afterPath="$PROJECT_DIR$/hnswalg.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sift_1b.cpp" afterPath="$PROJECT_DIR$/sift_1b.cpp" />
-    </list>
+    <list default="true" id="c0ce2bf3-d0fb-4ea2-b1fb-02acb635186a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -234,12 +230,12 @@
       <workItem from="1523888418812" duration="1772000" />
       <workItem from="1523890703232" duration="1792000" />
       <workItem from="1523895598809" duration="1612000" />
-      <workItem from="1523899422708" duration="233000" />
+      <workItem from="1523899422708" duration="830000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11605000" />
+    <option name="totallyTimeSpent" value="12202000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="391" y="88" width="1857" height="1092" extended-state="6" />

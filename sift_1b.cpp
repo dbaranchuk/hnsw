@@ -160,7 +160,7 @@ static void get_gt(unsigned int *massQA, size_t qsize, vector<std::priority_queu
 template <typename dist_t, typename vtype>
 static float test_approx(vtype *massQ, size_t qsize, HierarchicalNSW<dist_t, vtype> &appr_alg,
                          size_t vecdim, vector<std::priority_queue< std::pair<dist_t, labeltype >>> &answers,
-                         size_t k)
+                         size_t k, bool pq = false)
 {
 	size_t correct = 0;
     size_t total = 0;

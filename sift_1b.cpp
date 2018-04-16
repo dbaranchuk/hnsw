@@ -165,7 +165,7 @@ static float test_approx(vtype *massQ, size_t nq, HierarchicalNSW<dist_t, vtype>
     size_t total = 0;
 
     int res[k];
-    std::ofstream out("mysift_gt.ivecs", std::ios::binary);
+    std::ofstream out("mysift_triple_gt.ivecs", std::ios::binary);
 
     //uncomment to test in parallel mode:
     //#pragma omp parallel for

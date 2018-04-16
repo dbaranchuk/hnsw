@@ -41,7 +41,7 @@ path_info="${path_model}/hnsw_M${M}_ef${efConstruction}.bin"
 #######
 # Run #
 #######
-${PWD}/main -M ${M} \
+nohup ${PWD}/main -M ${M} \
                      -efConstruction ${efConstruction} \
                      -n ${nb} \
                      -nq ${nq} \

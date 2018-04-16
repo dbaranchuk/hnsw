@@ -54,4 +54,4 @@ ${PWD}/main -M ${M} \
                      -path_q ${path_q} \
                      -path_edges ${path_edges} \
                      -path_info ${path_info} \
-                     -l2_space "float"
+                     -l2space "float"

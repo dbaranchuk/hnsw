@@ -11,8 +11,8 @@ efConstruction="500"  # Max number of candidate vertices in priority queue to ob
 # Data parameters #
 ###################
 
-nb="1000000"          # Number of base vectors
-nq="10000"            # Number of queries
+nb="10000000"          # Number of base vectors
+nq="100000"            # Number of queries
 ngt="100"             # Number of groundtruth neighbours per query
 
 d="128"               # Vector dimension
@@ -31,12 +31,12 @@ efSearch="500"         # Max number of candidate vertices in priority queue to o
 path_data="${PWD}/data/mysift"
 path_model="${PWD}/models/mysift"
 
-path_base="${path_data}/mysift_base.fvecs"
+path_base="${path_data}/mysift_triple_answers.fvecs"
 path_gt="${PWD}/data/sift/sift_groundtruth.ivecs"
-path_q="${path_data}/mysift_queries.fvecs"
+path_q="${path_data}/mysift_triple_queries.fvecs"
 
-path_edges="${path_model}/hnsw_M${M}_ef${efConstruction}.ivecs"
-path_info="${path_model}/hnsw_M${M}_ef${efConstruction}.bin"
+path_edges="${path_model}/hnsw_triple_M${M}_ef${efConstruction}.ivecs"
+path_info="${path_model}/hnsw_triple_M${M}_ef${efConstruction}.bin"
 
 #######
 # Run #

@@ -2,10 +2,9 @@
 #include <cstring>
 #include <cassert>
 
-void hnsw_test( const char *, const char *,
+void hnsw_test( const char *, const char *, const char *,
                 const char *, const char *, const char *,
-                const char *, const char *, const char *,
-                const int, const int, const int, const int, const int, const int, const int);
+                const int, const int, const int, const int, const int, const int);
 
 
 void usage(const char * cmd)
@@ -20,8 +19,6 @@ void usage(const char * cmd)
                     "    -path_info filename     set of graph parameters)\n"
                     "    -path_gt filename     groundtruth (ivecs file format)\n"
                     "    -path_q filename     set of queries (ivecs file format)\n"
-                    "    -path_codebooks filename     codebook for PQ vectors (fvecs file format)\n"
-                    "    -path_tables filename     precomputed distances for PQ vectors (dat file format)\n"
                     "  General parameters\n"
                     "    -n #            use n points from the file, default: 1B\n"
                     "    -d #            dimension of the vector, default: 128\n"
@@ -67,13 +64,7 @@ int main(int argc, char **argv) {
             usage (argv[0]);
 
         /** Paths **/
-        if (!strcmp (a, "-path_codebooks") && i+1 < argc) {
-            path_codebooks = argv[++i];
-        }
-        else if (!strcmp (a, "-path_tables") && i+1 < argc) {
-            path_tables = argv[++i];
-        }
-        else if (!strcmp (a, "-path_data") && i+1 < argc) {
+        if (!strcmp (a, "-path_data") && i+1 < argc) {
             path_data = argv[++i];
         }
         else if (!strcmp (a, "-path_info") && i+1 < argc) {
@@ -116,19 +107,10 @@ int main(int argc, char **argv) {
         else if (!strcmp (a, "-l2space") && i+1 < argc) {
             l2space_type = argv[++i];
         }
-        else if (!strcmp (a, "-M_PQ") && i+1 < argc) {
-            ret = sscanf (argv[++i], "%d", &M_PQ);
-            assert (ret);
-        }
         else if (!strcmp (a, "-efSearch") && i+1 < argc) {
             ret = sscanf (argv[++i], "%d", &efSearch);
             assert (ret);
         }
-    }
-
-    if ((!path_codebooks && path_tables) || (path_codebooks && !path_tables)) {
-        std::cerr << "Enter path_codebooks and path_tables to use PQ" << std::endl;
-        exit(1);
     }
 
     //if (strcmp (l2space_type, "int") && strcmp (l2space_type, "float")) {
@@ -136,9 +118,17 @@ int main(int argc, char **argv) {
     //    exit(1);
     //}
 
-    hnsw_test(l2space_type, path_codebooks, path_tables, path_data, path_q,
-              path_gt, path_info, path_edges,
-              k, vecsize, qsize, vecdim, efConstruction, M, M_PQ);
+    std::cout << path_data << std::endl;
+    std::cout << path_q << std::endl;
+    std::cout << path_gt << std::endl;
+    std::cout << path_info << std::endl;
+    std::cout << vecsize << std::endl;
+    std::cout << qsize << std::endl;
+    std::cout << vecdim << std::endl;
+    std::cout << efConstruction << std::endl;
+    std::cout << M << std::endl;
+    hnsw_test(l2space_type, path_data, path_q, path_gt, path_info, path_edges,
+              k, vecsize, qsize, vecdim, efConstruction, M);
 
     return 0;  
 };

@@ -2,8 +2,7 @@
 #include <cstring>
 #include <cassert>
 
-void hnsw_test( const char *,
-                const char *, const char *,
+void hnsw_test( const char *, const char *,
                 const char *, const char *, const char *, const char *,
                 const char *, const char *, const char *,
                 const int, const int, const int, const int, const int, const int, const int);
@@ -43,12 +42,8 @@ int main(int argc, char **argv) {
     size_t vecdim = 128;
     size_t M = 16;
     size_t efConstruction = 300;
-    size_t ncentroids;
-    size_t nsubcentroids;
     size_t efSearch = 300;
     size_t M_PQ = 16;
-    size_t nprobes = 64;
-    size_t max_codes = 10000;
 
 
     const char *path_gt = NULL;
@@ -61,10 +56,6 @@ int main(int argc, char **argv) {
 
     const char *path_pq = NULL;
     const char *path_norm_pq = NULL;
-    const char *path_learn = NULL;
-
-    const char *path_groups;
-    const char *path_idxs;
 
     const char *l2space_type = NULL; //{int, float, new_pq}
     int k = 1, ret, ep;
@@ -87,7 +78,6 @@ int main(int argc, char **argv) {
         }
         else if (!strcmp (a, "-path_data") && i+1 < argc) {
             path_data = argv[++i];
-        }
         else if (!strcmp (a, "-path_info") && i+1 < argc) {
             path_info = argv[++i];
         }
@@ -105,15 +95,6 @@ int main(int argc, char **argv) {
         }
         else if (!strcmp (a, "-path_norm_pq") && i+1 < argc) {
             path_norm_pq = argv[++i];
-        }
-        else if (!strcmp (a, "-path_learn") && i+1 < argc) {
-            path_learn = argv[++i];
-        }
-        else if (!strcmp (a, "-path_groups") && i+1 < argc) {
-            path_groups = argv[++i];
-        }
-        else if (!strcmp (a, "-path_idxs") && i+1 < argc) {
-            path_idxs = argv[++i];
         }
         /** Int Parameters **/
         else if (!strcmp (a, "-k") && i+1 < argc) {
@@ -143,28 +124,12 @@ int main(int argc, char **argv) {
         else if (!strcmp (a, "-l2space") && i+1 < argc) {
             l2space_type = argv[++i];
         }
-        else if (!strcmp (a, "-nc") && i+1 < argc) {
-            ret = sscanf (argv[++i], "%d", &ncentroids);
-            assert (ret);
-        }
         else if (!strcmp (a, "-M_PQ") && i+1 < argc) {
             ret = sscanf (argv[++i], "%d", &M_PQ);
             assert (ret);
         }
         else if (!strcmp (a, "-efSearch") && i+1 < argc) {
             ret = sscanf (argv[++i], "%d", &efSearch);
-            assert (ret);
-        }
-        else if (!strcmp (a, "-nprobes") && i+1 < argc) {
-            ret = sscanf (argv[++i], "%d", &nprobes);
-            assert (ret);
-        }
-        else if (!strcmp (a, "-max_codes") && i+1 < argc) {
-            ret = sscanf (argv[++i], "%d", &max_codes);
-            assert (ret);
-        }
-        else if (!strcmp (a, "-nsubcentroids") && i+1 < argc) {
-            ret = sscanf (argv[++i], "%d", &nsubcentroids);
             assert (ret);
         }
     }
@@ -180,8 +145,7 @@ int main(int argc, char **argv) {
     //}
 
     hnsw_test(l2space_type,
-              path_pq, path_learn,
-              path_codebooks, path_tables, path_data, path_q,
+              path_pq, path_codebooks, path_tables, path_data, path_q,
               path_gt, path_info, path_edges,
               k, vecsize, qsize, vecdim, efConstruction, M, M_PQ);
 

@@ -160,31 +160,30 @@ static void get_gt(unsigned int *massQA, size_t qsize, vector<std::priority_queu
 template <typename dist_t, typename vtype>
 static float test_approx(vtype *massQ, size_t qsize, HierarchicalNSW<dist_t, vtype> &appr_alg,
                          size_t vecdim, vector<std::priority_queue< std::pair<dist_t, labeltype >>> &answers,
-                         size_t k, bool pq = false)
+                         size_t k)
 {
 	size_t correct = 0;
     size_t total = 0;
 
 	//uncomment to test in parallel mode:
-	//#pragma omp parallel for
+	#pragma omp parallel for
 	for (int i = 0; i < qsize; i++) {
 		std::priority_queue< std::pair<dist_t, labeltype >> result;
 
         result = appr_alg.searchKnn(massQ + vecdim*i, k);
 
-		std::priority_queue< std::pair<dist_t, labeltype >> gt(answers[i]);
-		unordered_set <labeltype> g;
+//        std::priority_queue< std::pair<dist_t, labeltype >> gt(answers[i]);
+//		  unordered_set <labeltype> g;
+//        total += gt.size();
 
-        total += gt.size();
-
-        while (gt.size()) {
-            g.insert(gt.top().second);
-            gt.pop();
-        }
+//        while (gt.size()) {
+//            g.insert(gt.top().second);
+//            gt.pop();
+//        }
 
         while (result.size()) {
-            if (g.find(result.top().second) != g.end())
-                correct++;
+//            if (g.find(result.top().second) != g.end())
+//                correct++;
             result.pop();
         }
 
@@ -264,7 +263,7 @@ static void loadXvecs(const char *path, format *mass, const int n, const int d)
 }
 
 template<typename dist_t, typename vtype>
-static void _hnsw_test(const char *path_pq, const char *path_learn,
+static void _hnsw_test(const char *path_pq,
                        const char *path_codebooks, const char *path_tables,
                        const char *path_data, const char *path_q,
                        const char *path_gt, const char *path_info, const char *path_edges,
@@ -278,7 +277,6 @@ static void _hnsw_test(const char *path_pq, const char *path_learn,
     const std::map<size_t, std::pair<size_t, size_t>> M_map = {{vecsize, {M, 2*M}}};
     //
     const std::vector<size_t> elements_per_level;// = {100000000, 5000000, 250000, 12500, 625, 32};
-    //const map<size_t, pair<size_t, size_t>> M_map = {{5263157, {16, 32}}, {vecsize, {M, 2*M}}};
     cout << "Loading GT:\n";
     const int gt_dim = 1000;
     unsigned int *massQA = new unsigned int[qsize * gt_dim];
@@ -360,27 +358,19 @@ static void _hnsw_test(const char *path_pq, const char *path_learn,
     delete l2space;
 }
 
-void hnsw_test(const char *l2space_type,
-               const char *path_pq, const char *path_learn,
+void hnsw_test(const char *l2space_type, const char *path_pq,
                const char *path_codebooks, const char *path_tables, const char *path_data, const char *path_q,
                const char *path_gt, const char *path_info, const char *path_edges,
                const int k, const int vecsize, const int qsize,
                const int vecdim, const int efConstruction, const int M, const int M_PQ)
 {
     if (!strcmp (l2space_type, "int"))
-        _hnsw_test<int, unsigned char>(path_pq, path_learn,
-                path_codebooks, path_tables, path_data, path_q,
+        _hnsw_test<int, unsigned char>(path_pq, path_codebooks, path_tables, path_data, path_q,
                         path_gt, path_info, path_edges, L2SpaceType::Int,
                         k, vecsize, qsize, vecdim, efConstruction, M, M_PQ);
 
     else if (!strcmp (l2space_type, "float"))
-        _hnsw_test<float, float>(path_pq, path_learn, path_codebooks, path_tables, path_data, path_q,
+        _hnsw_test<float, float>(path_pq, path_codebooks, path_tables, path_data, path_q,
                                  path_gt, path_info, path_edges, L2SpaceType::Float,
                                  k, vecsize, qsize, vecdim, efConstruction, M, M_PQ);
-//
-//    else if (!strcmp (l2space_type, "new_pq"))
-//        _hnsw_test<float, float>(path_pq, path_learn,
-//                path_codebooks, path_tables, path_data, path_q,
-//                                         path_gt, path_info, path_edges, L2SpaceType::NewPQ,
-//                                         k, vecsize, qsize, vecdim, efConstruction, M, M_PQ);
 }

@@ -160,7 +160,7 @@ static void get_gt(unsigned int *massQA, size_t qsize, vector<std::priority_queu
 template <typename dist_t, typename vtype>
 static float test_approx(vtype *massQ, size_t qsize, HierarchicalNSW<dist_t, vtype> &appr_alg,
                          size_t vecdim, vector<std::priority_queue< std::pair<dist_t, labeltype >>> &answers,
-                         size_t k, bool pq = false)
+                         size_t k)
 {
 	size_t correct = 0;
     size_t total = 0;
@@ -194,7 +194,7 @@ static float test_approx(vtype *massQ, size_t qsize, HierarchicalNSW<dist_t, vty
 template <typename dist_t, typename vtype>
 static void test_vs_recall(vtype *massQ, size_t qsize, HierarchicalNSW<dist_t, vtype> &appr_alg,
                            size_t vecdim, vector<std::priority_queue< std::pair<dist_t, labeltype >>> &answers,
-                           size_t k, bool pq = false)
+                           size_t k)
 {
 	vector<size_t> efs;// = {k}; //= {30, 100, 460};
     if (k < 30) {
@@ -215,7 +215,7 @@ static void test_vs_recall(vtype *massQ, size_t qsize, HierarchicalNSW<dist_t, v
         appr_alg.hops0 = 0.0;
         //appr_alg.hops = 0.0;
 		StopW stopw = StopW();
-		float recall = test_approx<dist_t, vtype>(massQ, qsize, appr_alg, vecdim, answers, k, pq);
+		float recall = test_approx<dist_t, vtype>(massQ, qsize, appr_alg, vecdim, answers, k);
 		float time_us_per_query = stopw.getElapsedTimeMicro() / qsize;
 		float avr_dist_count = appr_alg.dist_calc*1.f / qsize;
 		cout << ef << "\t" << recall << "\t" << time_us_per_query << " us\t" << avr_dist_count << " dcs\t" << appr_alg.hops0 /*+ appr_alg.hops*/ << " hps\n";
@@ -271,14 +271,12 @@ static void _hnsw_test(const char *path_pq,
                        const int k, const int vecsize, const int qsize,
                        const int vecdim, const int efConstruction, const int M, const int M_PQ)
 {
-    const bool PQ = false; //(M_PQ != -1);//(path_codebooks && path_tables);
-    const char *path_data_pq = "/home/dbaranchuk/deep_base_pq.bvecs";
-
+    const bool PQ = false;
     const std::map<size_t, std::pair<size_t, size_t>> M_map = {{vecsize, {M, 2*M}}};
     //
     const std::vector<size_t> elements_per_level;// = {100000000, 5000000, 250000, 12500, 625, 32};
     cout << "Loading GT:\n";
-    const int gt_dim = 1000;
+    const int gt_dim = 100;
     unsigned int *massQA = new unsigned int[qsize * gt_dim];
     loadXvecs<unsigned int>(path_gt, massQA, qsize, gt_dim);
 
@@ -318,14 +316,12 @@ static void _hnsw_test(const char *path_pq,
         appr_alg->addPoint((void *) mass, j1);
 
         size_t report_every = 1000000;
-#pragma omp parallel for num_threads(32)
+#pragma omp parallel for
         for (int i = 1; i < vecsize; i++) {
-            vtype mass[PQ ? M_PQ : vecdim];
-            //unsigned char mass[M_PQ];
+            vtype mass[vecdim];
 #pragma omp critical
             {
                 readXvec<vtype>(input, mass, vecdim);
-                //readXvec<unsigned char>(input, mass, M_PQ);
                 if (++j1 % report_every == 0) {
                     cout << j1 / (0.01 * vecsize) << " %, "
                          << report_every / (1000.0 * 1e-6 * stopw.getElapsedTimeMicro()) << " kips " << " Mem: "
@@ -351,7 +347,7 @@ static void _hnsw_test(const char *path_pq,
     get_gt<dist_t>(massQA, qsize, answers, gt_dim, k);
 
     cout << "Loaded gt\n";
-    test_vs_recall<dist_t, vtype>(massQ, qsize, *appr_alg, vecdim, answers, k, PQ);
+    test_vs_recall<dist_t, vtype>(massQ, qsize, *appr_alg, vecdim, answers, k);
     cout << "Actual memory usage: " << getCurrentRSS() / 1000000 << " Mb \n";
 
     delete massQA;

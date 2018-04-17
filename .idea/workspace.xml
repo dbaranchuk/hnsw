@@ -13,9 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0ce2bf3-d0fb-4ea2-b1fb-02acb635186a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run_sift.sh" afterPath="$PROJECT_DIR$/run_sift.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sift_1b.cpp" afterPath="$PROJECT_DIR$/sift_1b.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
@@ -41,8 +39,8 @@
       <file leaf-file-name="run_sift.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/run_sift.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="38" column="29" lean-forward="false" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+            <state relative-caret-position="252">
+              <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -242,12 +240,12 @@
       <workItem from="1523899422708" duration="830000" />
       <workItem from="1523920713966" duration="1488000" />
       <workItem from="1523923541430" duration="1355000" />
-      <workItem from="1523961974914" duration="274000" />
+      <workItem from="1523961974914" duration="403000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15319000" />
+    <option name="totallyTimeSpent" value="15448000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="391" y="88" width="1857" height="1092" extended-state="6" />
@@ -712,8 +710,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/run_sift.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="38" column="29" lean-forward="false" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+        <state relative-caret-position="252">
+          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
           <folding />
         </state>
       </provider>

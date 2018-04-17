@@ -11,8 +11,8 @@ efConstruction="500"  # Max number of candidate vertices in priority queue to ob
 # Data parameters #
 ###################
 
-nb="10000000"          # Number of base vectors
-nq="100000"            # Number of queries
+nb="1000000"          # Number of base vectors
+nq="10000"            # Number of queries
 ngt="100"             # Number of groundtruth neighbours per query
 
 d="128"               # Vector dimension
